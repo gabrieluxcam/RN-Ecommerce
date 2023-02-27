@@ -1,5 +1,6 @@
+/* eslint-disable react-native/no-inline-styles */
 import React, {Component} from 'react';
-import {Image, ImageBackground, StyleSheet, Text, View} from 'react-native';
+import {ImageBackground, StyleSheet, Text, View} from 'react-native';
 import {FONTS} from '../../constants/theme';
 import {icons} from '../../constants/';
 
@@ -10,22 +11,19 @@ class Splashscreen extends React.Component {
   componentDidMount() {
     setTimeout(() => {
       this.props.navigation.navigate('Home');
-    }, 5000);
+    }, 7000);
   }
 
   render() {
     return (
       <View style={styles.container}>
-        <ImageBackground source={icons.launcher_image} style={styles.image}>
-          <Image
-            source={icons.launcher_icon}
-            style={{
-              justifyContent: 'center',
-              alignItems: 'center',
-              alignContent: 'center',
-              alignSelf: 'center',
-            }}></Image>
-          <Text style={styles.text}>JUST CLIQ</Text>
+        <ImageBackground
+          source={icons.launcher_image}
+          style={styles.image}
+          imageStyle={{
+            resizeMode: 'stretch', // works only here!
+          }}>
+          <Text style={styles.text}>UXCam Demo</Text>
         </ImageBackground>
       </View>
     );
@@ -35,20 +33,19 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
     flexDirection: 'column',
-    backgroundColor: '#00509d',
+    backgroundColor: '#161E35',
   },
   image: {
-    flex: 10,
-    resizeMode: 'cover',
-    height: '68%',
-    justifyContent: 'flex-end',
+    flex: 8,
+    height: '100%',
+    justifyContent: 'center',
   },
   text: {
     color: 'white',
     fontSize: 60,
     fontWeight: 'bold',
     textAlign: 'center',
-    backgroundColor: '#1d3557',
+    backgroundColor: 'transparent',
     ...FONTS.body1,
   },
 });
