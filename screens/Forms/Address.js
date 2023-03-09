@@ -1,3 +1,6 @@
+/* eslint-disable curly */
+/* eslint-disable react-native/no-inline-styles */
+/* eslint-disable react/self-closing-comp */
 import React, {useEffect, useState} from 'react';
 import {
   StyleSheet,
