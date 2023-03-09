@@ -95,12 +95,12 @@ function HomeTabs() {
       />
       <Tab.Screen
         name="MyBag"
-        component={Home}
-        listeners={{
-          tabPress: e => {
-            e.preventDefault();
-          },
-        }}
+        component={Category}
+        // listeners={{
+        //   tabPress: e => {
+        //     e.preventDefault();
+        //   },
+        // }}
         options={{
           title: 'My Bag',
           tabBarIcon: ({color, size}) => (
@@ -124,7 +124,7 @@ export default function HomeNavigator() {
         name="Home"
         component={HomeTabs}
         options={{
-          title: 'JUST CLIQ',
+          title: 'Search here',
           headerStyle: {
             //backgroundColor: '#f4511e',
           },

@@ -1,3 +1,6 @@
+/* eslint-disable curly */
+/* eslint-disable react-native/no-inline-styles */
+/* eslint-disable react/self-closing-comp */
 import React, {useEffect, useState} from 'react';
 import {
   StyleSheet,
@@ -245,7 +248,7 @@ const styles = StyleSheet.create({
     ...FONTS.home_btm_text,
   },
   submit_btn_container: {
-    backgroundColor: '#DA1C4C',
+    backgroundColor: '#161E35',
     height: 50,
     width: '60%',
     bottom: 0,

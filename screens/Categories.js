@@ -39,7 +39,7 @@ const Category = ({navigation}) => {
     },
     {
       id: 5,
-      name: 'Jewellary',
+      name: 'Jewellry',
       bgColor: '#BF012C',
       cmp: '',
     },
