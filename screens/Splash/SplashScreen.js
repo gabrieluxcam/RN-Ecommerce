@@ -10,7 +10,7 @@ class Splashscreen extends React.Component {
   componentDidMount() {
     setTimeout(() => {
       this.props.navigation.navigate('Home');
-    }, 7000);
+    }, 3000);
   }
 
   render() {
@@ -20,7 +20,7 @@ class Splashscreen extends React.Component {
           source={icons.launcher_image}
           style={styles.image}
           imageStyle={{
-            resizeMode: 'stretch', // works only here!
+            resizeMode: 'cover',
           }}>
           <Text style={styles.text}>UXCam Demo</Text>
         </ImageBackground>
@@ -40,6 +40,7 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
   },
   text: {
+    paddingBottom: '80%',
     color: 'white',
     fontSize: 60,
     fontWeight: 'bold',

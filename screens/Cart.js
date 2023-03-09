@@ -10,8 +10,8 @@ const Cart = ({route, navigate}) => {
   //price = 1588
   if (price.toString().includes('$'))
     price = Math.round(price.replace('$', ''));
-  else if (price.toString().includes('₹'))
-    price = Math.round(price.replace('₹', ''));
+  else if (price.toString().includes('$'))
+    price = Math.round(price.replace('$', ''));
 
   const discount_value = Math.round(price / 40);
   const discounted_price = Math.round(price - discount_value);
@@ -39,7 +39,7 @@ const Cart = ({route, navigate}) => {
                 {name}
               </Text>
               <Text style={{...FONTS.product_title_text, paddingBottom: 10}}>
-                ₹{price}
+                ${price}
               </Text>
               <Text
                 style={{
@@ -124,7 +124,7 @@ const Cart = ({route, navigate}) => {
               <Text style={{...FONTS.cart_text}}>Bag Total</Text>
             </View>
             <View style={{flex: 1}}>
-              <Text style={{...FONTS.product_title_text}}>₹{price}</Text>
+              <Text style={{...FONTS.product_title_text}}>${price}</Text>
             </View>
           </View>
           <View
@@ -139,7 +139,7 @@ const Cart = ({route, navigate}) => {
               <Text style={{...FONTS.cart_text}}>Shipping Charge</Text>
             </View>
             <View style={{flex: 1}}>
-              <Text style={{...FONTS.product_title_text}}>₹{price}</Text>
+              <Text style={{...FONTS.product_title_text}}>${price}</Text>
             </View>
           </View>
 
@@ -158,7 +158,7 @@ const Cart = ({route, navigate}) => {
             </View>
             <View style={{flex: 1}}>
               <Text style={{...FONTS.product_title_text, color: '#00964D'}}>
-                - ₹{discount_value}
+                - ${discount_value}
               </Text>
             </View>
           </View>
@@ -176,7 +176,7 @@ const Cart = ({route, navigate}) => {
             </View>
             <View style={{flex: 1}}>
               <Text style={{...FONTS.product_title_text}}>
-                ₹{discounted_price}
+                ${discounted_price}
               </Text>
             </View>
           </View>
@@ -195,7 +195,7 @@ const Cart = ({route, navigate}) => {
         <View
           style={{
             flex: 1,
-            backgroundColor: '#DA1C4C',
+            backgroundColor: '#161E35',
             width: '100%',
             minHeight: 60,
             height: '80%',

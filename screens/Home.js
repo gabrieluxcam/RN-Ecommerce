@@ -35,8 +35,8 @@ const Home = () => {
 
     if (item.price.toString().includes('$')) {
       item.price = Math.round(item.price.replace('$', ''));
-    } else if (!item.price.toString().includes('₹')) {
-      item.price = '₹' + item.price;
+    } else if (!item.price.toString().includes('$')) {
+      item.price = '$' + item.price;
     }
 
     return (
@@ -184,8 +184,8 @@ const Home = () => {
   function renderRecentlyViewed(item, index) {
     if (item.price.toString().includes('$')) {
       item.price = Math.round(item.price.replace('$', ''));
-    } else if (!item.price.toString().includes('₹')) {
-      item.price = '₹' + item.price;
+    } else if (!item.price.toString().includes('$')) {
+      item.price = '$' + item.price;
     }
 
     return (
