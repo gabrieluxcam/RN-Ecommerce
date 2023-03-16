@@ -26,6 +26,9 @@ export default function AppNavigator() {
         drawerContentOptions={{
           activeTintColor: '#e91e63',
           itemStyle: {marginVertical: 5},
+        }}
+        screenOptions={{
+          headerShown: false,
         }}>
         <Drawer.Screen
           name="HomePage"

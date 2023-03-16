@@ -164,7 +164,7 @@ const styles = StyleSheet.create({
     ...FONTS.home_btm_text,
   },
   submit_btn_container: {
-    backgroundColor: '#DA1C4C',
+    backgroundColor: '#161E35',
     height: 50,
     width: '60%',
     bottom: 0,

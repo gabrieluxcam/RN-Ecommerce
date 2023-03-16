@@ -8,12 +8,57 @@
 
 /* Begin PBXBuildFile section */
 		00E356F31AD99517003FC87E /* EcommerceUXCamDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* EcommerceUXCamDemoTests.m */; };
+		04264AC293A04E548AE89EC5 /* CocoGothic-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 64E1E29304434135B85667D6 /* CocoGothic-Bold.ttf */; };
 		0C80B921A6F3F58F76C31292 /* libPods-EcommerceUXCamDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DCACB8F33CDC322A6C60F78 /* libPods-EcommerceUXCamDemo.a */; };
+		0DF96C8106404FD4A7FB2377 /* ic_launcher.png in Resources */ = {isa = PBXBuildFile; fileRef = 39915B2AEB4A44088906B146 /* ic_launcher.png */; };
+		1093A94DAE384D5F88CCF26B /* recently-viewed-label.png in Resources */ = {isa = PBXBuildFile; fileRef = 12D870A34F8C4101AEFA5A36 /* recently-viewed-label.png */; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.mm */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		1BE6FAA01EDB4FE48D2E3494 /* Rubik-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D9AA30734A334FC8A924613A /* Rubik-ExtraBold.ttf */; };
+		1EEFE18F23B54BCE8584575E /* Rubik-Italic-VariableFont_wght.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 03E84390587C487E9EFF162A /* Rubik-Italic-VariableFont_wght.ttf */; };
+		23324AAD7915409A89CF96B6 /* arrow_back.png in Resources */ = {isa = PBXBuildFile; fileRef = 8BE6AC554BBF418DAFBA9224 /* arrow_back.png */; };
+		29DA0BD944EA4860B0862252 /* Rubik-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E5C0004D92054228A969EEE7 /* Rubik-Medium.ttf */; };
+		2BCE698DC68449AF973FC0D6 /* Rubik-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FB55611CB45F4386881067D5 /* Rubik-Bold.ttf */; };
+		319D2CEB42DF44F990075272 /* Rubik-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0112F92568CF4F648E999AAA /* Rubik-MediumItalic.ttf */; };
+		45EA4791B187410B93F3960C /* Rubik-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8656DC3402654914A0B4B51E /* Rubik-Black.ttf */; };
+		49363C8316E1451184DD59DD /* discount_tag.svg in Resources */ = {isa = PBXBuildFile; fileRef = 28BC4692A012432C8AD9D486 /* discount_tag.svg */; };
+		49FF952CBB1944BE988076B3 /* nike-metcon-free.png in Resources */ = {isa = PBXBuildFile; fileRef = AA2E55439A8A4BAA9D572C94 /* nike-metcon-free.png */; };
+		4D3F3B3927774FB698BECC22 /* Rubik-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 790B179D44F14B71A8B434C1 /* Rubik-SemiBoldItalic.ttf */; };
+		4E6F5F2856B643C28143C38B /* nike-metcon-3.png in Resources */ = {isa = PBXBuildFile; fileRef = D47EFA53D71442C5BBB5DB37 /* nike-metcon-3.png */; };
+		51E733507250403383917988 /* Rubik-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 491293F390254BCCBDA96694 /* Rubik-BlackItalic.ttf */; };
+		57662BDB25FF468DB70F01DE /* nike-metcon-5-black.png in Resources */ = {isa = PBXBuildFile; fileRef = AA4FC130CCFF4F988192CDDC /* nike-metcon-5-black.png */; };
+		5A3DBBC9AC754A68A861C76F /* cat_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 0D0B03519BDA49DA97AFE3A5 /* cat_icon.png */; };
+		5A5597542F194372B9824BF0 /* nike-metcon-5-purple.png in Resources */ = {isa = PBXBuildFile; fileRef = FB1DEAEF2A394020A03CC830 /* nike-metcon-5-purple.png */; };
+		5B793D2CC7094B47A595F7C1 /* arrow_right.png in Resources */ = {isa = PBXBuildFile; fileRef = C1DEF9982D6243A0A1CE2090 /* arrow_right.png */; };
+		65297A2F41EE47FAA9328F27 /* home_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C155518373C49EABAC489B2 /* home_icon.png */; };
+		65DF177B742D4F76808B922E /* save_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 19F3F597E0C1461C902E31E4 /* save_icon.png */; };
+		6CD8A1CF31124716AA85C15F /* nike-zoom-kobe-1-protro.png in Resources */ = {isa = PBXBuildFile; fileRef = A5083CCDD1B24C8FA1B5DAEF /* nike-zoom-kobe-1-protro.png */; };
+		741CE2B34F8345E582CAAA3D /* Rubik-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9719794AD29845BEBEB4C985 /* Rubik-LightItalic.ttf */; };
 		7699B88040F8A987B510C191 /* libPods-EcommerceUXCamDemo-EcommerceUXCamDemoTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 19F6CBCC0A4E27FBF8BF4A61 /* libPods-EcommerceUXCamDemo-EcommerceUXCamDemoTests.a */; };
+		78CD3465CBF7419EB094C699 /* CarmenSans-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = DD238150ED9D43F5827F9B30 /* CarmenSans-Regular.otf */; };
+		7C5C91AE5131475E9233D605 /* nike-metcon-4.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D7B1B77A7BA4B18BDF00DE5 /* nike-metcon-4.png */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		91469A67EB2849CB99A75A49 /* discount_tag_p.png in Resources */ = {isa = PBXBuildFile; fileRef = 05CE3B14FAB54187AD0F08C6 /* discount_tag_p.png */; };
+		928DA08722714953970BD705 /* Rubik-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BDD8F481BD3D4CF78AD5350D /* Rubik-ExtraBoldItalic.ttf */; };
+		954881707CE4451C94610B1B /* Rubik-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C7F311A9A36C42F6868A355B /* Rubik-Light.ttf */; };
+		9920E7A959054E69B8015603 /* Rubik-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7B320FE6C80C4BEBA054A43D /* Rubik-BoldItalic.ttf */; };
+		9C137DE90EB8476887D9DCF2 /* CarmenSans-Thin.otf in Resources */ = {isa = PBXBuildFile; fileRef = A87D7945D3CC4BD9A0EC5E1A /* CarmenSans-Thin.otf */; };
+		9CC22E9EB0E94B2EA2C1F1F3 /* account_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 4479927E00D445AEA3D7DDDA /* account_icon.png */; };
+		AD649E0E972C47E8A6EA2862 /* nike-metcon-6.png in Resources */ = {isa = PBXBuildFile; fileRef = F961AA27DFF04A73AF6C7643 /* nike-metcon-6.png */; };
+		B96C33A59DA94E8D92459D0F /* splashscreen.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1BA87E4B1A024666A203D870 /* splashscreen.jpg */; };
+		C13987BA14BA4C9E9A80A4F6 /* brand_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = BC552220851C4399A081CBC2 /* brand_icon.png */; };
+		CAD8B6BD0D954E1FAD718FFF /* nike-pegasus-36.png in Resources */ = {isa = PBXBuildFile; fileRef = 2A93720D042447B58509C869 /* nike-pegasus-36.png */; };
+		CAE30978584D4E19A08BEEDA /* Rubik-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CAD05369BD154812BB4A055E /* Rubik-SemiBold.ttf */; };
+		CB7FD156325540929D825D2C /* CarmenSans-SemiBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 00615042D49742939A1CA615 /* CarmenSans-SemiBold.otf */; };
+		CB9A63238D6A4EACBD8E6621 /* menu.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D5EEF6E3AB9444CB8C15828 /* menu.png */; };
+		D1375A3A9B2C42229841E57B /* Rubik-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9186CC9BC40540E9AAEA1546 /* Rubik-Italic.ttf */; };
+		EF9783606FCB453EA5F0BBA7 /* Rubik-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C6ECDD0A3EA94FB9929F744D /* Rubik-Regular.ttf */; };
+		F24B3B459CBA4AD2BCB74EEA /* Rubik-VariableFont_wght.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A1691A00AF3645BC89637F68 /* Rubik-VariableFont_wght.ttf */; };
+		F302837EC1C54FD88A17F808 /* bag_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 5368D1A4C58A45D485DBB9AB /* bag_icon.png */; };
+		F75F7879E3A949BDA36B11FC /* arrow_rt_new.png in Resources */ = {isa = PBXBuildFile; fileRef = FF458104A09E4146979F5FBA /* arrow_rt_new.png */; };
+		FB74C25B8B9B40A3A232BB6D /* CocoGothic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 61CC563970D748719B32F2E8 /* CocoGothic.ttf */; };
+		FEF530D6FBFD414D884B2609 /* search.png in Resources */ = {isa = PBXBuildFile; fileRef = 5F934409EF8A4F15A421D6DC /* search.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,23 +72,68 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		00615042D49742939A1CA615 /* CarmenSans-SemiBold.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "CarmenSans-SemiBold.otf"; path = "../assets/fonts/CarmenSans-SemiBold.otf"; sourceTree = "<group>"; };
 		00E356EE1AD99517003FC87E /* EcommerceUXCamDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EcommerceUXCamDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00E356F21AD99517003FC87E /* EcommerceUXCamDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EcommerceUXCamDemoTests.m; sourceTree = "<group>"; };
+		0112F92568CF4F648E999AAA /* Rubik-MediumItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Rubik-MediumItalic.ttf"; path = "../assets/fonts/Rubik-MediumItalic.ttf"; sourceTree = "<group>"; };
+		03E84390587C487E9EFF162A /* Rubik-Italic-VariableFont_wght.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Rubik-Italic-VariableFont_wght.ttf"; path = "../assets/fonts/Rubik-Italic-VariableFont_wght.ttf"; sourceTree = "<group>"; };
+		05CE3B14FAB54187AD0F08C6 /* discount_tag_p.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = discount_tag_p.png; path = ../assets/icons/discount_tag_p.png; sourceTree = "<group>"; };
+		0D0B03519BDA49DA97AFE3A5 /* cat_icon.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = cat_icon.png; path = ../assets/icons/cat_icon.png; sourceTree = "<group>"; };
+		12D870A34F8C4101AEFA5A36 /* recently-viewed-label.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "recently-viewed-label.png"; path = "../assets/images/recently-viewed-label.png"; sourceTree = "<group>"; };
 		13B07F961A680F5B00A75B9A /* EcommerceUXCamDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EcommerceUXCamDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = EcommerceUXCamDemo/AppDelegate.h; sourceTree = "<group>"; };
 		13B07FB01A68108700A75B9A /* AppDelegate.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = AppDelegate.mm; path = EcommerceUXCamDemo/AppDelegate.mm; sourceTree = "<group>"; };
 		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = EcommerceUXCamDemo/Images.xcassets; sourceTree = "<group>"; };
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = EcommerceUXCamDemo/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = EcommerceUXCamDemo/main.m; sourceTree = "<group>"; };
+		19F3F597E0C1461C902E31E4 /* save_icon.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = save_icon.png; path = ../assets/icons/save_icon.png; sourceTree = "<group>"; };
 		19F6CBCC0A4E27FBF8BF4A61 /* libPods-EcommerceUXCamDemo-EcommerceUXCamDemoTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-EcommerceUXCamDemo-EcommerceUXCamDemoTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1BA87E4B1A024666A203D870 /* splashscreen.jpg */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = splashscreen.jpg; path = ../assets/images/splashscreen.jpg; sourceTree = "<group>"; };
+		1C155518373C49EABAC489B2 /* home_icon.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = home_icon.png; path = ../assets/icons/home_icon.png; sourceTree = "<group>"; };
+		28BC4692A012432C8AD9D486 /* discount_tag.svg */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = discount_tag.svg; path = ../assets/icons/discount_tag.svg; sourceTree = "<group>"; };
+		2A93720D042447B58509C869 /* nike-pegasus-36.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "nike-pegasus-36.png"; path = "../assets/images/nike-pegasus-36.png"; sourceTree = "<group>"; };
+		39915B2AEB4A44088906B146 /* ic_launcher.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = ic_launcher.png; path = ../assets/icons/ic_launcher.png; sourceTree = "<group>"; };
 		3B4392A12AC88292D35C810B /* Pods-EcommerceUXCamDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EcommerceUXCamDemo.debug.xcconfig"; path = "Target Support Files/Pods-EcommerceUXCamDemo/Pods-EcommerceUXCamDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		4479927E00D445AEA3D7DDDA /* account_icon.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = account_icon.png; path = ../assets/icons/account_icon.png; sourceTree = "<group>"; };
+		491293F390254BCCBDA96694 /* Rubik-BlackItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Rubik-BlackItalic.ttf"; path = "../assets/fonts/Rubik-BlackItalic.ttf"; sourceTree = "<group>"; };
+		4D5EEF6E3AB9444CB8C15828 /* menu.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = menu.png; path = ../assets/icons/menu.png; sourceTree = "<group>"; };
+		5368D1A4C58A45D485DBB9AB /* bag_icon.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = bag_icon.png; path = ../assets/icons/bag_icon.png; sourceTree = "<group>"; };
 		5709B34CF0A7D63546082F79 /* Pods-EcommerceUXCamDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EcommerceUXCamDemo.release.xcconfig"; path = "Target Support Files/Pods-EcommerceUXCamDemo/Pods-EcommerceUXCamDemo.release.xcconfig"; sourceTree = "<group>"; };
 		5B7EB9410499542E8C5724F5 /* Pods-EcommerceUXCamDemo-EcommerceUXCamDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EcommerceUXCamDemo-EcommerceUXCamDemoTests.debug.xcconfig"; path = "Target Support Files/Pods-EcommerceUXCamDemo-EcommerceUXCamDemoTests/Pods-EcommerceUXCamDemo-EcommerceUXCamDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		5D7B1B77A7BA4B18BDF00DE5 /* nike-metcon-4.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "nike-metcon-4.png"; path = "../assets/images/nike-metcon-4.png"; sourceTree = "<group>"; };
 		5DCACB8F33CDC322A6C60F78 /* libPods-EcommerceUXCamDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-EcommerceUXCamDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5F934409EF8A4F15A421D6DC /* search.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = search.png; path = ../assets/icons/search.png; sourceTree = "<group>"; };
+		61CC563970D748719B32F2E8 /* CocoGothic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = CocoGothic.ttf; path = ../assets/fonts/CocoGothic.ttf; sourceTree = "<group>"; };
+		64E1E29304434135B85667D6 /* CocoGothic-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "CocoGothic-Bold.ttf"; path = "../assets/fonts/CocoGothic-Bold.ttf"; sourceTree = "<group>"; };
+		790B179D44F14B71A8B434C1 /* Rubik-SemiBoldItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Rubik-SemiBoldItalic.ttf"; path = "../assets/fonts/Rubik-SemiBoldItalic.ttf"; sourceTree = "<group>"; };
+		7B320FE6C80C4BEBA054A43D /* Rubik-BoldItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Rubik-BoldItalic.ttf"; path = "../assets/fonts/Rubik-BoldItalic.ttf"; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = EcommerceUXCamDemo/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8656DC3402654914A0B4B51E /* Rubik-Black.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Rubik-Black.ttf"; path = "../assets/fonts/Rubik-Black.ttf"; sourceTree = "<group>"; };
 		89C6BE57DB24E9ADA2F236DE /* Pods-EcommerceUXCamDemo-EcommerceUXCamDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EcommerceUXCamDemo-EcommerceUXCamDemoTests.release.xcconfig"; path = "Target Support Files/Pods-EcommerceUXCamDemo-EcommerceUXCamDemoTests/Pods-EcommerceUXCamDemo-EcommerceUXCamDemoTests.release.xcconfig"; sourceTree = "<group>"; };
+		8BE6AC554BBF418DAFBA9224 /* arrow_back.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = arrow_back.png; path = ../assets/icons/arrow_back.png; sourceTree = "<group>"; };
+		9186CC9BC40540E9AAEA1546 /* Rubik-Italic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Rubik-Italic.ttf"; path = "../assets/fonts/Rubik-Italic.ttf"; sourceTree = "<group>"; };
+		9719794AD29845BEBEB4C985 /* Rubik-LightItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Rubik-LightItalic.ttf"; path = "../assets/fonts/Rubik-LightItalic.ttf"; sourceTree = "<group>"; };
+		A1691A00AF3645BC89637F68 /* Rubik-VariableFont_wght.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Rubik-VariableFont_wght.ttf"; path = "../assets/fonts/Rubik-VariableFont_wght.ttf"; sourceTree = "<group>"; };
+		A5083CCDD1B24C8FA1B5DAEF /* nike-zoom-kobe-1-protro.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "nike-zoom-kobe-1-protro.png"; path = "../assets/images/nike-zoom-kobe-1-protro.png"; sourceTree = "<group>"; };
+		A87D7945D3CC4BD9A0EC5E1A /* CarmenSans-Thin.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "CarmenSans-Thin.otf"; path = "../assets/fonts/CarmenSans-Thin.otf"; sourceTree = "<group>"; };
+		AA2E55439A8A4BAA9D572C94 /* nike-metcon-free.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "nike-metcon-free.png"; path = "../assets/images/nike-metcon-free.png"; sourceTree = "<group>"; };
+		AA4FC130CCFF4F988192CDDC /* nike-metcon-5-black.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "nike-metcon-5-black.png"; path = "../assets/images/nike-metcon-5-black.png"; sourceTree = "<group>"; };
+		BC552220851C4399A081CBC2 /* brand_icon.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = brand_icon.png; path = ../assets/icons/brand_icon.png; sourceTree = "<group>"; };
+		BDD8F481BD3D4CF78AD5350D /* Rubik-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Rubik-ExtraBoldItalic.ttf"; path = "../assets/fonts/Rubik-ExtraBoldItalic.ttf"; sourceTree = "<group>"; };
+		C1DEF9982D6243A0A1CE2090 /* arrow_right.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = arrow_right.png; path = ../assets/icons/arrow_right.png; sourceTree = "<group>"; };
+		C6ECDD0A3EA94FB9929F744D /* Rubik-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Rubik-Regular.ttf"; path = "../assets/fonts/Rubik-Regular.ttf"; sourceTree = "<group>"; };
+		C7F311A9A36C42F6868A355B /* Rubik-Light.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Rubik-Light.ttf"; path = "../assets/fonts/Rubik-Light.ttf"; sourceTree = "<group>"; };
+		CAD05369BD154812BB4A055E /* Rubik-SemiBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Rubik-SemiBold.ttf"; path = "../assets/fonts/Rubik-SemiBold.ttf"; sourceTree = "<group>"; };
+		D47EFA53D71442C5BBB5DB37 /* nike-metcon-3.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "nike-metcon-3.png"; path = "../assets/images/nike-metcon-3.png"; sourceTree = "<group>"; };
+		D9AA30734A334FC8A924613A /* Rubik-ExtraBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Rubik-ExtraBold.ttf"; path = "../assets/fonts/Rubik-ExtraBold.ttf"; sourceTree = "<group>"; };
+		DD238150ED9D43F5827F9B30 /* CarmenSans-Regular.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "CarmenSans-Regular.otf"; path = "../assets/fonts/CarmenSans-Regular.otf"; sourceTree = "<group>"; };
+		E5C0004D92054228A969EEE7 /* Rubik-Medium.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Rubik-Medium.ttf"; path = "../assets/fonts/Rubik-Medium.ttf"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		F961AA27DFF04A73AF6C7643 /* nike-metcon-6.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "nike-metcon-6.png"; path = "../assets/images/nike-metcon-6.png"; sourceTree = "<group>"; };
+		FB1DEAEF2A394020A03CC830 /* nike-metcon-5-purple.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "nike-metcon-5-purple.png"; path = "../assets/images/nike-metcon-5-purple.png"; sourceTree = "<group>"; };
+		FB55611CB45F4386881067D5 /* Rubik-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Rubik-Bold.ttf"; path = "../assets/fonts/Rubik-Bold.ttf"; sourceTree = "<group>"; };
+		FF458104A09E4146979F5FBA /* arrow_rt_new.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = arrow_rt_new.png; path = ../assets/icons/arrow_rt_new.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,6 +212,7 @@
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				BBD78D7AC51CEA395F1C20DB /* Pods */,
+				9E0F443D28A24DE5B2BD0F99 /* Resources */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -135,6 +226,59 @@
 				00E356EE1AD99517003FC87E /* EcommerceUXCamDemoTests.xctest */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		9E0F443D28A24DE5B2BD0F99 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				DD238150ED9D43F5827F9B30 /* CarmenSans-Regular.otf */,
+				00615042D49742939A1CA615 /* CarmenSans-SemiBold.otf */,
+				A87D7945D3CC4BD9A0EC5E1A /* CarmenSans-Thin.otf */,
+				64E1E29304434135B85667D6 /* CocoGothic-Bold.ttf */,
+				61CC563970D748719B32F2E8 /* CocoGothic.ttf */,
+				8656DC3402654914A0B4B51E /* Rubik-Black.ttf */,
+				491293F390254BCCBDA96694 /* Rubik-BlackItalic.ttf */,
+				FB55611CB45F4386881067D5 /* Rubik-Bold.ttf */,
+				7B320FE6C80C4BEBA054A43D /* Rubik-BoldItalic.ttf */,
+				D9AA30734A334FC8A924613A /* Rubik-ExtraBold.ttf */,
+				BDD8F481BD3D4CF78AD5350D /* Rubik-ExtraBoldItalic.ttf */,
+				03E84390587C487E9EFF162A /* Rubik-Italic-VariableFont_wght.ttf */,
+				9186CC9BC40540E9AAEA1546 /* Rubik-Italic.ttf */,
+				C7F311A9A36C42F6868A355B /* Rubik-Light.ttf */,
+				9719794AD29845BEBEB4C985 /* Rubik-LightItalic.ttf */,
+				E5C0004D92054228A969EEE7 /* Rubik-Medium.ttf */,
+				0112F92568CF4F648E999AAA /* Rubik-MediumItalic.ttf */,
+				C6ECDD0A3EA94FB9929F744D /* Rubik-Regular.ttf */,
+				CAD05369BD154812BB4A055E /* Rubik-SemiBold.ttf */,
+				790B179D44F14B71A8B434C1 /* Rubik-SemiBoldItalic.ttf */,
+				A1691A00AF3645BC89637F68 /* Rubik-VariableFont_wght.ttf */,
+				4479927E00D445AEA3D7DDDA /* account_icon.png */,
+				8BE6AC554BBF418DAFBA9224 /* arrow_back.png */,
+				C1DEF9982D6243A0A1CE2090 /* arrow_right.png */,
+				FF458104A09E4146979F5FBA /* arrow_rt_new.png */,
+				5368D1A4C58A45D485DBB9AB /* bag_icon.png */,
+				BC552220851C4399A081CBC2 /* brand_icon.png */,
+				0D0B03519BDA49DA97AFE3A5 /* cat_icon.png */,
+				28BC4692A012432C8AD9D486 /* discount_tag.svg */,
+				05CE3B14FAB54187AD0F08C6 /* discount_tag_p.png */,
+				1C155518373C49EABAC489B2 /* home_icon.png */,
+				39915B2AEB4A44088906B146 /* ic_launcher.png */,
+				4D5EEF6E3AB9444CB8C15828 /* menu.png */,
+				19F3F597E0C1461C902E31E4 /* save_icon.png */,
+				5F934409EF8A4F15A421D6DC /* search.png */,
+				D47EFA53D71442C5BBB5DB37 /* nike-metcon-3.png */,
+				5D7B1B77A7BA4B18BDF00DE5 /* nike-metcon-4.png */,
+				AA4FC130CCFF4F988192CDDC /* nike-metcon-5-black.png */,
+				FB1DEAEF2A394020A03CC830 /* nike-metcon-5-purple.png */,
+				F961AA27DFF04A73AF6C7643 /* nike-metcon-6.png */,
+				AA2E55439A8A4BAA9D572C94 /* nike-metcon-free.png */,
+				2A93720D042447B58509C869 /* nike-pegasus-36.png */,
+				A5083CCDD1B24C8FA1B5DAEF /* nike-zoom-kobe-1-protro.png */,
+				12D870A34F8C4101AEFA5A36 /* recently-viewed-label.png */,
+				1BA87E4B1A024666A203D870 /* splashscreen.jpg */,
+			);
+			name = Resources;
+			path = "";
 			sourceTree = "<group>";
 		};
 		BBD78D7AC51CEA395F1C20DB /* Pods */ = {
@@ -244,6 +388,51 @@
 			files = (
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				78CD3465CBF7419EB094C699 /* CarmenSans-Regular.otf in Resources */,
+				CB7FD156325540929D825D2C /* CarmenSans-SemiBold.otf in Resources */,
+				9C137DE90EB8476887D9DCF2 /* CarmenSans-Thin.otf in Resources */,
+				04264AC293A04E548AE89EC5 /* CocoGothic-Bold.ttf in Resources */,
+				FB74C25B8B9B40A3A232BB6D /* CocoGothic.ttf in Resources */,
+				45EA4791B187410B93F3960C /* Rubik-Black.ttf in Resources */,
+				51E733507250403383917988 /* Rubik-BlackItalic.ttf in Resources */,
+				2BCE698DC68449AF973FC0D6 /* Rubik-Bold.ttf in Resources */,
+				9920E7A959054E69B8015603 /* Rubik-BoldItalic.ttf in Resources */,
+				1BE6FAA01EDB4FE48D2E3494 /* Rubik-ExtraBold.ttf in Resources */,
+				928DA08722714953970BD705 /* Rubik-ExtraBoldItalic.ttf in Resources */,
+				1EEFE18F23B54BCE8584575E /* Rubik-Italic-VariableFont_wght.ttf in Resources */,
+				D1375A3A9B2C42229841E57B /* Rubik-Italic.ttf in Resources */,
+				954881707CE4451C94610B1B /* Rubik-Light.ttf in Resources */,
+				741CE2B34F8345E582CAAA3D /* Rubik-LightItalic.ttf in Resources */,
+				29DA0BD944EA4860B0862252 /* Rubik-Medium.ttf in Resources */,
+				319D2CEB42DF44F990075272 /* Rubik-MediumItalic.ttf in Resources */,
+				EF9783606FCB453EA5F0BBA7 /* Rubik-Regular.ttf in Resources */,
+				CAE30978584D4E19A08BEEDA /* Rubik-SemiBold.ttf in Resources */,
+				4D3F3B3927774FB698BECC22 /* Rubik-SemiBoldItalic.ttf in Resources */,
+				F24B3B459CBA4AD2BCB74EEA /* Rubik-VariableFont_wght.ttf in Resources */,
+				9CC22E9EB0E94B2EA2C1F1F3 /* account_icon.png in Resources */,
+				23324AAD7915409A89CF96B6 /* arrow_back.png in Resources */,
+				5B793D2CC7094B47A595F7C1 /* arrow_right.png in Resources */,
+				F75F7879E3A949BDA36B11FC /* arrow_rt_new.png in Resources */,
+				F302837EC1C54FD88A17F808 /* bag_icon.png in Resources */,
+				C13987BA14BA4C9E9A80A4F6 /* brand_icon.png in Resources */,
+				5A3DBBC9AC754A68A861C76F /* cat_icon.png in Resources */,
+				49363C8316E1451184DD59DD /* discount_tag.svg in Resources */,
+				91469A67EB2849CB99A75A49 /* discount_tag_p.png in Resources */,
+				65297A2F41EE47FAA9328F27 /* home_icon.png in Resources */,
+				0DF96C8106404FD4A7FB2377 /* ic_launcher.png in Resources */,
+				CB9A63238D6A4EACBD8E6621 /* menu.png in Resources */,
+				65DF177B742D4F76808B922E /* save_icon.png in Resources */,
+				FEF530D6FBFD414D884B2609 /* search.png in Resources */,
+				4E6F5F2856B643C28143C38B /* nike-metcon-3.png in Resources */,
+				7C5C91AE5131475E9233D605 /* nike-metcon-4.png in Resources */,
+				57662BDB25FF468DB70F01DE /* nike-metcon-5-black.png in Resources */,
+				5A5597542F194372B9824BF0 /* nike-metcon-5-purple.png in Resources */,
+				AD649E0E972C47E8A6EA2862 /* nike-metcon-6.png in Resources */,
+				49FF952CBB1944BE988076B3 /* nike-metcon-free.png in Resources */,
+				CAD8B6BD0D954E1FAD718FFF /* nike-pegasus-36.png in Resources */,
+				6CD8A1CF31124716AA85C15F /* nike-zoom-kobe-1-protro.png in Resources */,
+				1093A94DAE384D5F88CCF26B /* recently-viewed-label.png in Resources */,
+				B96C33A59DA94E8D92459D0F /* splashscreen.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

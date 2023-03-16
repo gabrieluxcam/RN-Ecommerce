@@ -100,7 +100,7 @@ const ProductList: React.FC = () => {
                   color: COLORS.cat_title_color,
                   ...FONTS.prod_list_price_text,
                 }}>
-                ₹{item.price}
+                ${item.price}
               </Text>
             </View>
           </View>

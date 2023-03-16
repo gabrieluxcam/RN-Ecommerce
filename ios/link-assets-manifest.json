@@ -1,0 +1,185 @@
+{
+  "migIndex": 1,
+  "data": [
+    {
+      "path": "assets/fonts/CarmenSans-Regular.otf",
+      "sha1": "1cba3119a652a429f3871ec116c61bb9326c4ce6"
+    },
+    {
+      "path": "assets/fonts/CarmenSans-SemiBold.otf",
+      "sha1": "20105abb4f4bd203baf56ddc1cb6fdbd31dc89b9"
+    },
+    {
+      "path": "assets/fonts/CarmenSans-Thin.otf",
+      "sha1": "12b482e30d18f1af6356799fbc0a1797153eefda"
+    },
+    {
+      "path": "assets/fonts/CocoGothic-Bold.ttf",
+      "sha1": "5f54758465a83047a38a27aa06336eb0a9089fc6"
+    },
+    {
+      "path": "assets/fonts/CocoGothic.ttf",
+      "sha1": "d14013177ff576aa248382044c5bdacd8ccfa97b"
+    },
+    {
+      "path": "assets/fonts/Rubik-Black.ttf",
+      "sha1": "2f20321d9341772abece36749f1d3a119138b37f"
+    },
+    {
+      "path": "assets/fonts/Rubik-BlackItalic.ttf",
+      "sha1": "31b8fe038dd4cd0bc4ef88968afafed5beadea6b"
+    },
+    {
+      "path": "assets/fonts/Rubik-Bold.ttf",
+      "sha1": "78595733a1f7714af2ef51689670e3aa61daf0f9"
+    },
+    {
+      "path": "assets/fonts/Rubik-BoldItalic.ttf",
+      "sha1": "fda7f47ad7c6458e944ed27abc1b78f7ed623fc6"
+    },
+    {
+      "path": "assets/fonts/Rubik-ExtraBold.ttf",
+      "sha1": "41a4b6903215f6157fbac119a46bd59f0b325e7a"
+    },
+    {
+      "path": "assets/fonts/Rubik-ExtraBoldItalic.ttf",
+      "sha1": "8036d20da44ad167c5ad003c06df70d2f5d03a6e"
+    },
+    {
+      "path": "assets/fonts/Rubik-Italic-VariableFont_wght.ttf",
+      "sha1": "1bb89d81ad286697b07bcdf4031416631dff2802"
+    },
+    {
+      "path": "assets/fonts/Rubik-Italic.ttf",
+      "sha1": "1540bfda7ea72efb8c5289f044e8226ab7b90b24"
+    },
+    {
+      "path": "assets/fonts/Rubik-Light.ttf",
+      "sha1": "513ab7de6389fd9ad728753e7462b6c47c6c0eba"
+    },
+    {
+      "path": "assets/fonts/Rubik-LightItalic.ttf",
+      "sha1": "4ddd7d406dede155d51d4ee96e17afacfd47021e"
+    },
+    {
+      "path": "assets/fonts/Rubik-Medium.ttf",
+      "sha1": "e9a9bb713e6006858063a45bfa7f854c80485112"
+    },
+    {
+      "path": "assets/fonts/Rubik-MediumItalic.ttf",
+      "sha1": "31ff648c9b3e025991c26e185f245b74725c1eca"
+    },
+    {
+      "path": "assets/fonts/Rubik-Regular.ttf",
+      "sha1": "617d6a6120d1e584a9212598421d039cb9b2e7c9"
+    },
+    {
+      "path": "assets/fonts/Rubik-SemiBold.ttf",
+      "sha1": "9d4fd31cf2f584928fd5335aff1b7bc6de83f8d0"
+    },
+    {
+      "path": "assets/fonts/Rubik-SemiBoldItalic.ttf",
+      "sha1": "c13e6306e258fdd9f302c31966fef5293b50d6a4"
+    },
+    {
+      "path": "assets/fonts/Rubik-VariableFont_wght.ttf",
+      "sha1": "9eb3cea52512b1f3cd2fb6cb73d47e98d15f6783"
+    },
+    {
+      "path": "assets/icons/account_icon.png",
+      "sha1": "206a75e9f85a686885889a671e7d3be31621e9fb"
+    },
+    {
+      "path": "assets/icons/arrow_back.png",
+      "sha1": "0d241db1b50e18461eb69ad0027ddf5b378a5c65"
+    },
+    {
+      "path": "assets/icons/arrow_right.png",
+      "sha1": "5f00808472bae735189a0ff75fd8f779a809efa3"
+    },
+    {
+      "path": "assets/icons/arrow_rt_new.png",
+      "sha1": "a29a46a7ba4b5d7d7f185515b6bb01e373180b4e"
+    },
+    {
+      "path": "assets/icons/bag_icon.png",
+      "sha1": "a957f6ab2fd30b213ac13a6d33e22b51b64ac6e5"
+    },
+    {
+      "path": "assets/icons/brand_icon.png",
+      "sha1": "c4c4f9f2b54bd7eeb5e9ce72c36111cb308b7b4c"
+    },
+    {
+      "path": "assets/icons/cat_icon.png",
+      "sha1": "fe16231cdf46f3291c40edceb4fb83d149988627"
+    },
+    {
+      "path": "assets/icons/discount_tag.svg",
+      "sha1": "5a8cca3fb9daa1d67cda6f2349b05ae858d29591"
+    },
+    {
+      "path": "assets/icons/discount_tag_p.png",
+      "sha1": "14a0ffb8eedef8377e9c466500bb5c8a0f28da45"
+    },
+    {
+      "path": "assets/icons/home_icon.png",
+      "sha1": "c036ac1646d2f6b2831eb03e3eb98dd4912ce4bc"
+    },
+    {
+      "path": "assets/icons/ic_launcher.png",
+      "sha1": "5d36dab70ec6c02d21d8ce6b25613f849244d77c"
+    },
+    {
+      "path": "assets/icons/menu.png",
+      "sha1": "e7fad15496dd7d9d6478a86fd2e3839ba33fdb7f"
+    },
+    {
+      "path": "assets/icons/save_icon.png",
+      "sha1": "dba31e79a554805d7e7a896718e2a9234a4ec367"
+    },
+    {
+      "path": "assets/icons/search.png",
+      "sha1": "5251bb1eac3d5d7aac00390dddd2f5a27e208237"
+    },
+    {
+      "path": "assets/images/nike-metcon-3.png",
+      "sha1": "988c4f032f2ba72fabfb09394f2e764ea597d5c8"
+    },
+    {
+      "path": "assets/images/nike-metcon-4.png",
+      "sha1": "0219493a05c75f4b2082db4257eeda8c5bea83b4"
+    },
+    {
+      "path": "assets/images/nike-metcon-5-black.png",
+      "sha1": "615840eea93b7871fd1af597317eaa1dc479acdf"
+    },
+    {
+      "path": "assets/images/nike-metcon-5-purple.png",
+      "sha1": "8ad4ba5612420cb96c71902d6c61acfbdc70c48b"
+    },
+    {
+      "path": "assets/images/nike-metcon-6.png",
+      "sha1": "d621c00846e9b1f384427fe91ddc5782e11d2e2b"
+    },
+    {
+      "path": "assets/images/nike-metcon-free.png",
+      "sha1": "00254b267570c5d3f989efdc3d5fbe8198f45876"
+    },
+    {
+      "path": "assets/images/nike-pegasus-36.png",
+      "sha1": "fe2edab5f9a62ef0a4c193320f513fe5ddcacce7"
+    },
+    {
+      "path": "assets/images/nike-zoom-kobe-1-protro.png",
+      "sha1": "4c7541bb9d694be7fec5488c11673b235e722bb0"
+    },
+    {
+      "path": "assets/images/recently-viewed-label.png",
+      "sha1": "c476659ce894bed130207f08ad42d52b2f2da3d5"
+    },
+    {
+      "path": "assets/images/splashscreen.jpg",
+      "sha1": "d8f28ecc39e190ccccbccdd4aa21f0f8759a955b"
+    }
+  ]
+}
