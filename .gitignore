@@ -3,6 +3,10 @@ package-lock.json
 yarn.lock
 .history/
 
+#environment
+*.env
+
+
 # Docusaurus
 .docusaurus
 .cache-loader
