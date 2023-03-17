@@ -4,7 +4,7 @@ yarn.lock
 .history/
 
 #environment
-*.env
+# *.env
 
 
 # Docusaurus
