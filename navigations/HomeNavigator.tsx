@@ -7,7 +7,10 @@ import {
   createStackNavigator,
   StackNavigationProp,
 } from '@react-navigation/stack';
-import {createBottomTabNavigator} from '@react-navigation/bottom-tabs';
+import {
+  BottomTabNavigationOptions,
+  createBottomTabNavigator,
+} from '@react-navigation/bottom-tabs';
 import {useNavigation, DrawerActions} from '@react-navigation/native';
 import {icons, COLORS, FONTS, SIZES} from '../constants';
 import MaterialCommunityIcons from 'react-native-vector-icons/MaterialCommunityIcons';
@@ -22,6 +25,7 @@ import Category from '../screens/Categories';
 import Product from '../screens/Detail';
 import ProductList from '../screens/ProductList';
 import Splashscreen from '../screens/Splash/SplashScreen';
+import Address from '../screens/Forms/Address';
 
 const Stack = createStackNavigator<HomeStackParamList>();
 const Tab = createBottomTabNavigator<HomeBottmTabParamList>();
@@ -30,11 +34,13 @@ function HomeTabs() {
   return (
     <Tab.Navigator
       initialRouteName="Home"
-      tabBarOptions={{
-        labelStyle: {...FONTS.home_btm_text},
-        inactiveTintColor: COLORS.black,
-        activeTintColor: COLORS.light2,
-      }}>
+      screenOptions={
+        {
+          tabBarLabelStyle: {...FONTS.home_btm_text},
+          tabBarInactiveTintColor: COLORS.black,
+          tabBarActiveTintColor: COLORS.light2,
+        } as BottomTabNavigationOptions
+      }>
       <Tab.Screen
         name="Home"
         component={Home}
@@ -45,8 +51,8 @@ function HomeTabs() {
         }}
       />
       <Tab.Screen
-        name="Category"
-        component={Category}
+        name="Address"
+        component={Address}
         options={{
           tabBarIcon: ({color, size}) => (
             <MaterialCommunityIcons
@@ -58,8 +64,8 @@ function HomeTabs() {
         }}
       />
       <Tab.Screen
-        name="Brand"
-        component={Home}
+        name="Category"
+        component={Category}
         listeners={{
           tabPress: e => {
             e.preventDefault();
@@ -77,7 +83,7 @@ function HomeTabs() {
       />
       <Tab.Screen
         name="Account"
-        component={Home}
+        component={Address}
         listeners={{
           tabPress: e => {
             e.preventDefault();
@@ -172,7 +178,8 @@ export default function HomeNavigator() {
       <Stack.Screen name="Category" component={Category} />
       <Stack.Screen name="ProductList" component={ProductList} />
       <Stack.Screen name="Product" component={Product} />
-      <Stack.Screen name="Cart" component={Cart} />
+      {/* <Stack.Screen name="Cart" component={Cart} /> */}
+      <Stack.Screen name="Address" component={Address} />
     </Stack.Navigator>
   );
 }

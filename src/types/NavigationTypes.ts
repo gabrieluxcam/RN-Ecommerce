@@ -17,6 +17,7 @@ export type HomeBottmTabParamList = {
   Category: undefined;
   Home: undefined;
   MyBag: undefined;
+  Cart: undefined;
 };
 
 export type HomeStackParamList = {
@@ -26,6 +27,7 @@ export type HomeStackParamList = {
   Product: undefined;
   ProductList: undefined;
   Splashscreen: undefined;
+  Address: undefined;
 };
 
 export type LoginStackParamList = {

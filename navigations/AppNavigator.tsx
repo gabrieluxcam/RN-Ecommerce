@@ -23,12 +23,14 @@ export default function AppNavigator() {
   return (
     <NavigationContainer theme={theme}>
       <Drawer.Navigator
-        drawerContentOptions={{
-          activeTintColor: '#e91e63',
-          itemStyle: {marginVertical: 5},
-        }}
+        // drawerContentOptions={{
+        //   activeTintColor: '#e91e63',
+        //   itemStyle: {marginVertical: 5},
+        // }}
         screenOptions={{
-          headerShown: false,
+          headerShown: true,
+          drawerActiveTintColor: '#e91e63',
+          drawerItemStyle: {marginVertical: 1},
         }}>
         <Drawer.Screen
           name="HomePage"

@@ -3,6 +3,8 @@ import React, {useEffect} from 'react';
 import {StyleSheet, View, Text, Image, TouchableOpacity} from 'react-native';
 import {COLORS, SIZES, FONTS} from '../constants';
 import {ScrollView} from 'react-native-gesture-handler';
+import RNUxcam from 'react-native-ux-cam';
+import {useFocusEffect} from '@react-navigation/native';
 
 const Product = ({route, navigation}) => {
   var {id, name, img, type, price} = route.params;
@@ -12,6 +14,12 @@ const Product = ({route, navigation}) => {
   } else if (price.toString().includes('$')) {
     price = Math.round(price.replace('$', ''));
   }
+
+  useFocusEffect(
+    React.useCallback(() => {
+      RNUxcam.tagScreenName('Product Screen');
+    }, []),
+  );
 
   return (
     <View style={{height: '100%', width: '100%', backgroundColor: '#fafafa'}}>
@@ -116,6 +124,7 @@ const Product = ({route, navigation}) => {
           }}>
           <TouchableOpacity
             onPress={() => {
+              RNUxcam.logEvent('testing event obfuscated');
               navigation.navigate('Cart', {
                 id: id,
                 name: name,

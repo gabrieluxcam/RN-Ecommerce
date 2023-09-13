@@ -33,7 +33,8 @@ export default function MenuNavigator() {
           headerTitleStyle: {
             ...FONTS.navTitle,
           },
-          headerLeft: ({onPress}) => (
+          // eslint-disable-next-line react/no-unstable-nested-components
+          headerLeft: ({}) => (
             <TouchableOpacity
               style={{marginLeft: SIZES.padding}}
               onPress={() => navigation.dispatch(DrawerActions.openDrawer())}>
@@ -47,6 +48,7 @@ export default function MenuNavigator() {
               />
             </TouchableOpacity>
           ),
+          // eslint-disable-next-line react/no-unstable-nested-components
           headerRight: () => (
             <TouchableOpacity
               style={{marginRight: SIZES.padding}}
