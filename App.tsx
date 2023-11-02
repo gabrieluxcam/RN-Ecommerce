@@ -17,6 +17,7 @@ const configuration = {
   userAppKey: UXCAM_API_KEY,
   enableAutomaticScreenNameTagging: false,
   enableImprovedScreenCapture: true,
+  enableAdvancedGestureRecognition: false,
 };
 RNUxcam.startWithConfiguration(configuration);
 
@@ -27,7 +28,11 @@ const App = () => {
   console.log('uxcam key coming');
   console.log('====================================');
   console.log(UXCAM_API_KEY);
+  // RNUxcam.logEvent('sessionURL', RNUxcam.urlForCurrentSession);
 
+  // let sessionUrl = RNUxcam.urlForCurrentSession();
+  // // RNUxcam.logEvent('uxcamId', sessionUrl);
+  // console.log(sessionUrl);
   return (
     <ClothesProvider>
       <AppNavigator />

@@ -10,8 +10,10 @@ import {
 } from 'react-native';
 import {COLORS, SIZES, FONTS} from '../../constants';
 import {ScrollView} from 'react-native-gesture-handler';
+import RNUxcam from 'react-native-ux-cam';
 
 const Login = ({navigation}) => {
+  // RNUxcam.setUserIdentity('test login from stack');
   const [formState, setFormState] = useState([]);
   const onAlertTriggered = message => {
     return Alert.alert('Add Address', message, [
@@ -26,12 +28,14 @@ const Login = ({navigation}) => {
     console.log('form phone number : ', formState.phone_number);
   };
   const onSubmit = () => {
-    if (
-      formState.phone_number !== undefined &&
-      formState.phone_number.length == 10
-    ) {
-      console.log(formState);
-    } else onAlertTriggered(JSON.stringify(formState));
+    // if (
+    //   formState.phone_number !== undefined &&
+    //   formState.phone_number.length == 10
+    // ) {
+    //   console.log(formState);
+    // } else onAlertTriggered(JSON.stringify(formState));
+
+    RNUxcam.setUserIdentity('test login');
   };
   return (
     <View style={styles.container}>

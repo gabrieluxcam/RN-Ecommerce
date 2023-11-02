@@ -12,12 +12,13 @@ export type AppDrawerParamList = {
 };
 
 export type HomeBottmTabParamList = {
-  Account: undefined;
+  Login: undefined;
   Brand: undefined;
   Category: undefined;
   Home: undefined;
   MyBag: undefined;
   Cart: undefined;
+  Address: undefined;
 };
 
 export type HomeStackParamList = {

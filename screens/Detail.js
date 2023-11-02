@@ -124,7 +124,14 @@ const Product = ({route, navigation}) => {
           }}>
           <TouchableOpacity
             onPress={() => {
-              RNUxcam.logEvent('testing event obfuscated');
+              // RNUxcam.logEvent('testing event obfuscated');
+
+              try {
+                RNUxcam.setUserProperty('testing_user_type', 'Free');
+              } catch (e) {
+                console.log(e, ' UXCam Analytics error');
+              }
+
               navigation.navigate('Cart', {
                 id: id,
                 name: name,

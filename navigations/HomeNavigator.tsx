@@ -26,6 +26,7 @@ import Product from '../screens/Detail';
 import ProductList from '../screens/ProductList';
 import Splashscreen from '../screens/Splash/SplashScreen';
 import Address from '../screens/Forms/Address';
+import Login from '../screens/Forms/Login';
 
 const Stack = createStackNavigator<HomeStackParamList>();
 const Tab = createBottomTabNavigator<HomeBottmTabParamList>();
@@ -66,11 +67,11 @@ function HomeTabs() {
       <Tab.Screen
         name="Category"
         component={Category}
-        listeners={{
-          tabPress: e => {
-            e.preventDefault();
-          },
-        }}
+        // listeners={{
+        //   tabPress: e => {
+        //     e.preventDefault();
+        //   },
+        // }}
         options={{
           tabBarIcon: ({color, size}) => (
             <MaterialCommunityIcons
@@ -82,13 +83,13 @@ function HomeTabs() {
         }}
       />
       <Tab.Screen
-        name="Account"
-        component={Address}
-        listeners={{
-          tabPress: e => {
-            e.preventDefault();
-          },
-        }}
+        name="Login"
+        component={Login}
+        // listeners={{
+        //   tabPress: e => {
+        //     e.preventDefault();
+        //   },
+        // }}
         options={{
           tabBarIcon: ({color, size}) => (
             <MaterialCommunityIcons

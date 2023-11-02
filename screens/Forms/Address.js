@@ -28,6 +28,10 @@ const Address = ({navigation}) => {
       {text: 'OK', onPress: () => console.log('OK Pressed')},
     ]);
   };
+  const onSubmit2 = () => {
+    RNUxcam.setUserIdentity(undefined);
+    console.log('Address Pressed');
+  };
   const onSubmit = () => {
     if (formState.first_name !== undefined && formState.first_name.length > 2) {
       if (formState.last_name !== undefined && formState.last_name.length > 2) {
@@ -197,7 +201,7 @@ const Address = ({navigation}) => {
         </ScrollView>
       </View>
       <View style={styles.submit_btn_container}>
-        <TouchableOpacity onPress={onSubmit}>
+        <TouchableOpacity onPress={onSubmit2}>
           <Text style={styles.submit_box}>Save Address</Text>
         </TouchableOpacity>
       </View>
