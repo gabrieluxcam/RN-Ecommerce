@@ -10,7 +10,7 @@ import {
 } from 'react-native';
 import {COLORS, SIZES, FONTS} from '../../constants';
 import {ScrollView} from 'react-native-gesture-handler';
-import RNUxcam from 'react-native-ux-cam';
+// import RNUxcam from 'react-native-ux-cam';
 
 const Login = ({navigation}) => {
   // RNUxcam.setUserIdentity('test login from stack');
@@ -34,8 +34,7 @@ const Login = ({navigation}) => {
     // ) {
     //   console.log(formState);
     // } else onAlertTriggered(JSON.stringify(formState));
-
-    RNUxcam.setUserIdentity('test login');
+    // RNUxcam.setUserIdentity('test login');
   };
   return (
     <View style={styles.container}>

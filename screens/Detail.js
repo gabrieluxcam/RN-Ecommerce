@@ -3,7 +3,7 @@ import React, {useEffect} from 'react';
 import {StyleSheet, View, Text, Image, TouchableOpacity} from 'react-native';
 import {COLORS, SIZES, FONTS} from '../constants';
 import {ScrollView} from 'react-native-gesture-handler';
-import RNUxcam from 'react-native-ux-cam';
+// import RNUxcam from 'react-native-ux-cam';
 import {useFocusEffect} from '@react-navigation/native';
 
 const Product = ({route, navigation}) => {
@@ -15,11 +15,11 @@ const Product = ({route, navigation}) => {
     price = Math.round(price.replace('$', ''));
   }
 
-  useFocusEffect(
-    React.useCallback(() => {
-      RNUxcam.tagScreenName('Product Screen');
-    }, []),
-  );
+  // useFocusEffect(
+  //   React.useCallback(() => {
+  //     RNUxcam.tagScreenName('Product Screen');
+  //   }, []),
+  // );
 
   return (
     <View style={{height: '100%', width: '100%', backgroundColor: '#fafafa'}}>
@@ -126,11 +126,11 @@ const Product = ({route, navigation}) => {
             onPress={() => {
               // RNUxcam.logEvent('testing event obfuscated');
 
-              try {
-                RNUxcam.setUserProperty('testing_user_type', 'Free');
-              } catch (e) {
-                console.log(e, ' UXCam Analytics error');
-              }
+              // try {
+              //   RNUxcam.setUserProperty('testing_user_type', 'Free');
+              // } catch (e) {
+              //   console.log(e, ' UXCam Analytics error');
+              // }
 
               navigation.navigate('Cart', {
                 id: id,

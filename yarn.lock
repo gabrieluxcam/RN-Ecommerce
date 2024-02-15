@@ -6042,11 +6042,6 @@ react-native-svg@^13.9.0:
     css-select "^5.1.0"
     css-tree "^1.1.3"
 
-react-native-ux-cam@^5.4.10:
-  version "5.4.10"
-  resolved "https://registry.npmjs.org/react-native-ux-cam/-/react-native-ux-cam-5.4.10.tgz"
-  integrity sha512-z5lhIhWZlArVL/rpLZVMFK7PP6T0AJCEHAULiH1QPlbPtxqQF7vCvQxyL84zAM6uKAqJ/eWb0dNOlXGEejjrEA==
-
 react-native-vector-icons@^9.2.0:
   version "9.2.0"
   resolved "https://registry.npmjs.org/react-native-vector-icons/-/react-native-vector-icons-9.2.0.tgz"

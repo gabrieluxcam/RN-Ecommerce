@@ -14,12 +14,12 @@ import {
 import {COLORS, SIZES, FONTS} from '../../constants';
 import {ScrollView} from 'react-native-gesture-handler';
 
-// UXCam import
-import RNUxcam from 'react-native-ux-cam';
+// // UXCam import
+// import RNUxcam from 'react-native-ux-cam';
 
 const Address = ({navigation}) => {
   useEffect(() => {
-    RNUxcam.tagScreenName('Address');
+    // RNUxcam.tagScreenName('Address');
     console.info('testing app Logs JS');
   });
   const [formState, setFormState] = useState([]);
@@ -29,7 +29,7 @@ const Address = ({navigation}) => {
     ]);
   };
   const onSubmit2 = () => {
-    RNUxcam.setUserIdentity(undefined);
+    // RNUxcam.setUserIdentity(undefined);
     console.log('Address Pressed');
   };
   const onSubmit = () => {

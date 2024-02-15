@@ -3,7 +3,7 @@ import React, {useEffect} from 'react';
 import {StyleSheet, View, Text, Image, TouchableOpacity} from 'react-native';
 import {COLORS, SIZES, FONTS, icons} from '../constants';
 import {ScrollView} from 'react-native-gesture-handler';
-import RNUxcam from 'react-native-ux-cam';
+// import RNUxcam from 'react-native-ux-cam';
 import {useFocusEffect} from '@react-navigation/native';
 
 const Cart = ({route, navigate}) => {
@@ -18,11 +18,11 @@ const Cart = ({route, navigate}) => {
   const discount_value = Math.round(price / 40);
   const discounted_price = Math.round(price - discount_value);
 
-  useFocusEffect(
-    React.useCallback(() => {
-      RNUxcam.tagScreenName('Cart Screen');
-    }, []),
-  );
+  // useFocusEffect(
+  //   React.useCallback(() => {
+  //     RNUxcam.tagScreenName('Cart Screen');
+  //   }, []),
+  // );
 
   return (
     <View
@@ -213,7 +213,7 @@ const Cart = ({route, navigate}) => {
           }}>
           <TouchableOpacity
             onPress={() => {
-              RNUxcam.logEvent('testing event');
+              // RNUxcam.logEvent('testing event');
             }}>
             <Text style={{color: COLORS.white, ...FONTS.checkout_btn_text}}>
               CHECKOUT
