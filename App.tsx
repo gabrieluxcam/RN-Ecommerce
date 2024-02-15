@@ -10,6 +10,7 @@ import {LogBox} from 'react-native';
 import AppNavigator from './navigations/AppNavigator';
 import {ClothesProvider} from './src/context';
 import RNUxcam from 'react-native-ux-cam';
+import {log} from 'react-native-reanimated';
 
 const App = () => {
   LogBox.ignoreLogs(['Warning: ...']); // Ignore log notification by message
@@ -38,9 +39,13 @@ const App = () => {
     console.log('====================================');
     console.log(isStarted);
     console.log('====================================');
+    console.log('check for RECORDING');
+    console.log(RNUxcam.isRecording()); // ahora mismo deberia ser FALSE
+    console.log(!RNUxcam.isRecording()); // aqui veo si arroja FALSE o TRUE
+    console.log('====================================');
   };
 
-  setTimeout(handleTimeOut, 2000);
+  setTimeout(handleTimeOut, 1000);
 
   return (
     <ClothesProvider>
