@@ -14,11 +14,31 @@ import {ScrollView} from 'react-native-gesture-handler';
 // UXCam import
 import RNUxcam from 'react-native-ux-cam';
 
+//testImport
+import {useOnDisappear} from '../../hooks/onDisappearHelper';
+import {useFocusEffect} from '@react-navigation/native';
+
+const config = {
+  userAppKey: '2c03jxhvos3e8c9',
+  enableAutomaticScreenNameTagging: false,
+  enableImprovedScreenCapture: true,
+};
+
 const Address = ({navigation}) => {
+  useFocusEffect(
+    React.useCallback(() => {
+      RNUxcam.optIntoSchematicRecordings();
+      RNUxcam.setMultiSessionRecord(false); // have disabled multiSessionRecording
+      if (!RNUxcam.isRecording()) {
+        RNUxcam.startWithConfiguration(config);
+      }
+    }, []),
+  );
   useEffect(() => {
     RNUxcam.tagScreenName('Address');
     console.info('testing app Logs JS');
   });
+
   const [formState, setFormState] = useState([]);
   const onAlertTriggered = message => {
     return Alert.alert('Add Address', message, [
@@ -68,6 +88,8 @@ const Address = ({navigation}) => {
     });
     console.log('form phone number : ', formState.phone_number);
   };
+
+  const onDisappear = useOnDisappear();
   return (
     <View style={styles.container}>
       <View style={styles.sub_container}>
