@@ -27,16 +27,19 @@ const config = {
 const Address = ({navigation}) => {
   useFocusEffect(
     React.useCallback(() => {
-      RNUxcam.optIntoSchematicRecordings();
-      RNUxcam.setMultiSessionRecord(false); // have disabled multiSessionRecording
+      // RNUxcam.optIntoSchematicRecordings();
+      // RNUxcam.setMultiSessionRecord(false);
+      // RNUxcam.startWithConfiguration(config);
+
       if (!RNUxcam.isRecording()) {
-        RNUxcam.startWithConfiguration(config);
+        RNUxcam.startNewSession();
       }
     }, []),
   );
   useEffect(() => {
     RNUxcam.tagScreenName('Address');
     console.info('testing app Logs JS');
+    RNUxcam.applyOcclusion(true);
   });
 
   const [formState, setFormState] = useState([]);

@@ -455,13 +455,13 @@ PODS:
     - React-Core
   - RNSVG (13.14.0):
     - React-Core
-  - RNUxcam (5.4.14):
+  - RNUxcam (5.4.15):
     - React-Core
-    - UXCam (~> 3.6.9)
+    - UXCam (~> 3.6.11)
   - RNVectorIcons (9.2.0):
     - React-Core
   - SocketRocket (0.6.1)
-  - UXCam (3.6.9)
+  - UXCam (3.6.12)
   - Yoga (1.14.0)
   - YogaKit (1.18.1):
     - Yoga (~> 1.14)
@@ -697,13 +697,13 @@ SPEC CHECKSUMS:
   RNReanimated: f186e85d9f28c9383d05ca39e11dd194f59093ec
   RNScreens: 3c5b9f4a9dcde752466854b6109b79c0e205dad3
   RNSVG: d00c8f91c3cbf6d476451313a18f04d220d4f396
-  RNUxcam: 743e875154707e096111360bfd0fd2d3d41b4783
+  RNUxcam: 687f2f8194a945977a77203f31d462e826e92799
   RNVectorIcons: fcc2f6cb32f5735b586e66d14103a74ce6ad61f8
   SocketRocket: f32cd54efbe0f095c4d7594881e52619cfe80b17
-  UXCam: bc7af0044c888c00b4785b4198efdb0238dccf65
+  UXCam: 0bc9841124bf7b8416ba9e07e62105a74f5696a3
   Yoga: 5ed1699acbba8863755998a4245daa200ff3817b
   YogaKit: f782866e155069a2cca2517aafea43200b01fd5a
 
-PODFILE CHECKSUM: 6bb58dcb190fae1588917d949d88b6d370c21415
+PODFILE CHECKSUM: 3c91f1e9692be995de3ef597bb4824d6a8b00197
 
 COCOAPODS: 1.11.3

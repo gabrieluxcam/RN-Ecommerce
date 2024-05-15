@@ -9,8 +9,8 @@ import React, {useEffect, useState} from 'react';
 import {LogBox} from 'react-native';
 import AppNavigator from './navigations/AppNavigator';
 import {ClothesProvider} from './src/context';
-// import RNUxcam from 'react-native-ux-cam';
-import {log} from 'react-native-reanimated';
+import RNUxcam from 'react-native-ux-cam';
+// import {log} from 'react-native-reanimated';
 
 const App = () => {
   LogBox.ignoreLogs(['Warning: ...']); // Ignore log notification by message
@@ -19,16 +19,15 @@ const App = () => {
   const [isStarted, setStarted] = useState<undefined | boolean>(undefined);
 
   useEffect(() => {
-    // const config = {
-    //   userAppKey: '2c03jxhvos3e8c9',
-    //   enableAutomaticScreenNameTagging: false,
-    //   enableImprovedScreenCapture: true,
-    // };
+    const config = {
+      userAppKey: '2c03jxhvos3e8c9',
+      enableAutomaticScreenNameTagging: false,
+      enableImprovedScreenCapture: true,
+    };
 
     if (isStarted) {
-      // RNUxcam.optIntoSchematicRecordings();
-      // RNUxcam.setMultiSessionRecord(false); // have disabled multiSessionRecording
-      // RNUxcam.startWithConfiguration(config);
+      RNUxcam.optIntoSchematicRecordings();
+      RNUxcam.startWithConfiguration(config);
       console.log('====================================');
       console.log('UXCAM STARTING');
       console.log('====================================');
