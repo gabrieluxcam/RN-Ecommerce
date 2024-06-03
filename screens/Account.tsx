@@ -1,11 +1,23 @@
 import React from 'react';
 import {View, Button, StyleSheet} from 'react-native';
+import {useNavigation} from '@react-navigation/native';
+import {StackNavigationProp} from '@react-navigation/stack';
+import {RootStackParamList} from '../src/types/NavigationTypes'; // Adjust the import path as needed
+
+type AccountScreenNavigationProp = StackNavigationProp<
+  RootStackParamList,
+  'WebViewScreen'
+>;
 
 export default function Account() {
+  const navigation = useNavigation<AccountScreenNavigationProp>();
   function handlePress(buttonName: string) {
     console.log('====================================');
     console.log(`${buttonName} Pressed!`);
     console.log('====================================');
+    if (buttonName === 'Test1') {
+      navigation.navigate('WebViewScreen');
+    }
   }
 
   return (

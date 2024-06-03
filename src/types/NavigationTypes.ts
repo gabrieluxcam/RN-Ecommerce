@@ -48,3 +48,5 @@ export type SecondSideMenuItemParamList = {
   Home: undefined;
   MyBag: undefined;
 };
+
+export type RootStackParamList = {};

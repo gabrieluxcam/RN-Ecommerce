@@ -1,6 +1,7 @@
 import React from 'react';
 import {NavigationContainer, DefaultTheme} from '@react-navigation/native';
 import {createDrawerNavigator} from '@react-navigation/drawer';
+import {createStackNavigator} from '@react-navigation/stack';
 import {AppDrawerParamList} from '../src/types/NavigationTypes';
 // navigators
 import AddressNavigator from './AddressNavigator';
@@ -9,6 +10,9 @@ import LoginNavigator from './LoginNavigator';
 import MenuNavigator from './MenuNavigator';
 import ProductListNavigator from './ProductListNavigator';
 import AccountNavigator from './AccountNavigator';
+//screen
+import WebViewScreen from '../screens/WebViewScreen';
+import Account from '../screens/Account';
 
 const theme = {
   ...DefaultTheme,
@@ -19,6 +23,24 @@ const theme = {
 };
 
 const Drawer = createDrawerNavigator<AppDrawerParamList>();
+const Stack = createStackNavigator();
+
+function AccountStackNavigator() {
+  return (
+    <Stack.Navigator initialRouteName="Account">
+      <Stack.Screen
+        name="Account"
+        component={Account}
+        options={{title: 'Account'}}
+      />
+      <Stack.Screen
+        name="WebViewScreen"
+        component={WebViewScreen}
+        options={{title: 'WebView'}}
+      />
+    </Stack.Navigator>
+  );
+}
 
 export default function AppNavigator() {
   return (
@@ -59,7 +81,7 @@ export default function AppNavigator() {
         <Drawer.Screen
           name="SecondSideMenuItem"
           options={{drawerLabel: 'Tests'}}
-          component={AccountNavigator}
+          component={AccountStackNavigator}
         />
         {/* <Drawer.Screen
           name="ThirdSideMenuItem"
