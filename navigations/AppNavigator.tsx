@@ -8,6 +8,7 @@ import HomeNavigator from './HomeNavigator';
 import LoginNavigator from './LoginNavigator';
 import MenuNavigator from './MenuNavigator';
 import ProductListNavigator from './ProductListNavigator';
+import AccountNavigator from './AccountNavigator';
 
 const theme = {
   ...DefaultTheme,
@@ -55,21 +56,21 @@ export default function AppNavigator() {
           options={{drawerLabel: 'Categories'}}
           component={MenuNavigator}
         />
+        <Drawer.Screen
+          name="SecondSideMenuItem"
+          options={{drawerLabel: 'Tests'}}
+          component={AccountNavigator}
+        />
         {/* <Drawer.Screen
-                    name="SecondSideMenuItem"
-                    options={{ drawerLabel: 'Account' }}
-                    component={HomeNavigator}
-                />
-                <Drawer.Screen
-                    name="ThirdSideMenuItem"
-                    options={{ drawerLabel: 'Addresses' }}
-                    component={HomeNavigator}
-                />
-                <Drawer.Screen
-                    name="FourthSideMenuItem"
-                    options={{ drawerLabel: 'Call US' }}
-                    component={HomeNavigator}
-                /> */}
+          name="ThirdSideMenuItem"
+          options={{drawerLabel: 'Addresses'}}
+          component={HomeNavigator}
+        />
+        <Drawer.Screen
+          name="FourthSideMenuItem"
+          options={{drawerLabel: 'Call US'}}
+          component={HomeNavigator}
+        /> */}
       </Drawer.Navigator>
     </NavigationContainer>
   );

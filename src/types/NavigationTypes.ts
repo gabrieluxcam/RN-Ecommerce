@@ -9,6 +9,7 @@ export type AppDrawerParamList = {
   HomePage: HomeStackParamList;
   Login: LoginStackParamList;
   ProductList: MenuAndProductListStackParamList;
+  SecondSideMenuItem: SecondSideMenuItemParamList;
 };
 
 export type HomeBottmTabParamList = {
@@ -38,4 +39,12 @@ export type MenuAndProductListStackParamList = {
   Category: undefined;
   Product: undefined;
   ProductList: undefined;
+};
+
+export type SecondSideMenuItemParamList = {
+  Account: undefined;
+  Brand: undefined;
+  Category: undefined;
+  Home: undefined;
+  MyBag: undefined;
 };

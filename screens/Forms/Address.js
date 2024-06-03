@@ -1,3 +1,4 @@
+/* eslint-disable react-native/no-inline-styles */
 import React, {useEffect, useState} from 'react';
 import {
   StyleSheet,
@@ -25,17 +26,18 @@ const config = {
 };
 
 const Address = ({navigation}) => {
-  useFocusEffect(
-    React.useCallback(() => {
-      // RNUxcam.optIntoSchematicRecordings();
-      // RNUxcam.setMultiSessionRecord(false);
-      // RNUxcam.startWithConfiguration(config);
+  // TODO this is a different UXCam starting case
+  // useFocusEffect(
+  //   React.useCallback(() => {
+  //     // RNUxcam.optIntoSchematicRecordings();
+  //     // RNUxcam.setMultiSessionRecord(false);
+  //     // RNUxcam.startWithConfiguration(config);
 
-      if (!RNUxcam.isRecording()) {
-        RNUxcam.startNewSession();
-      }
-    }, []),
-  );
+  //     // if (!RNUxcam.isRecording()) {
+  //     //   RNUxcam.startNewSession();
+  //     // }
+  //   }, []),
+  // );
   useEffect(() => {
     RNUxcam.tagScreenName('Address');
     console.info('testing app Logs JS');
@@ -74,15 +76,30 @@ const Address = ({navigation}) => {
                   ) {
                     console.log(formState);
                     onAlertTriggered(JSON.stringify(formState));
-                  } else onAlertTriggered('Please enter proper phone number.');
-                } else onAlertTriggered('Please enter proper state name.');
-              } else onAlertTriggered('Please enter proper city name.');
-            } else onAlertTriggered('Please enter house landmark details.');
-          } else
+                  } else {
+                    onAlertTriggered('Please enter proper phone number.');
+                  }
+                } else {
+                  onAlertTriggered('Please enter proper state name.');
+                }
+              } else {
+                onAlertTriggered('Please enter proper city name.');
+              }
+            } else {
+              onAlertTriggered('Please enter house landmark details.');
+            }
+          } else {
             onAlertTriggered('Please enter full address with house details.');
-        } else onAlertTriggered('Please enter six digit Pin code');
-      } else onAlertTriggered('Please enter proper Last name');
-    } else onAlertTriggered('Please enter proper First name');
+          }
+        } else {
+          onAlertTriggered('Please enter six digit Pin code');
+        }
+      } else {
+        onAlertTriggered('Please enter proper Last name');
+      }
+    } else {
+      onAlertTriggered('Please enter proper First name');
+    }
   };
   const onHandleChange = (label, value) => {
     setFormState({
@@ -122,7 +139,8 @@ const Address = ({navigation}) => {
                 returnKeyType={'done'}
                 onChangeText={pincode => onHandleChange('pincode', pincode)}
                 placeholderTextColor={'#212121'}
-                style={styles.input_box}></TextInput>
+                style={styles.input_box}
+              />
             </View>
             <View style={styles.input_container}>
               <TextInput
@@ -134,7 +152,8 @@ const Address = ({navigation}) => {
                   onHandleChange('first_name', first_name)
                 }
                 placeholderTextColor={'#212121'}
-                style={styles.input_box}></TextInput>
+                style={styles.input_box}
+              />
             </View>
             <View style={styles.input_container}>
               <TextInput
@@ -146,7 +165,8 @@ const Address = ({navigation}) => {
                   onHandleChange('last_name', last_name)
                 }
                 style={styles.input_box}
-                placeholderTextColor={'#212121'}></TextInput>
+                placeholderTextColor={'#212121'}
+              />
             </View>
             <View style={styles.inputarea_container}>
               <TextInput
@@ -159,7 +179,8 @@ const Address = ({navigation}) => {
                 style={styles.input_box}
                 multiline={true}
                 numberOfLines={4}
-                placeholderTextColor={'#212121'}></TextInput>
+                placeholderTextColor={'#212121'}
+              />
             </View>
             <View style={styles.input_container}>
               <TextInput
@@ -170,7 +191,8 @@ const Address = ({navigation}) => {
                   onHandleChange('landmark_name', landmark_name)
                 }
                 style={styles.input_box}
-                placeholderTextColor={'#212121'}></TextInput>
+                placeholderTextColor={'#212121'}
+              />
             </View>
             <View style={styles.input_container}>
               <TextInput
@@ -181,7 +203,8 @@ const Address = ({navigation}) => {
                   onHandleChange('city_name', city_name)
                 }
                 style={styles.input_box}
-                placeholderTextColor={'#212121'}></TextInput>
+                placeholderTextColor={'#212121'}
+              />
             </View>
             <View style={styles.input_container}>
               <TextInput
@@ -192,7 +215,8 @@ const Address = ({navigation}) => {
                   onHandleChange('state_name', state_name)
                 }
                 style={styles.input_box}
-                placeholderTextColor={'#212121'}></TextInput>
+                placeholderTextColor={'#212121'}
+              />
             </View>
             <View style={styles.input_container}>
               <TextInput
@@ -202,7 +226,8 @@ const Address = ({navigation}) => {
                 returnKeyType={'done'}
                 onChangeText={phone => onHandleChange('phone_number', phone)}
                 style={styles.input_box}
-                placeholderTextColor={'#212121'}></TextInput>
+                placeholderTextColor={'#212121'}
+              />
             </View>
           </View>
           <View style={{flex: 1, flexDirection: 'row'}}>
