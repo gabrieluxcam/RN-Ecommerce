@@ -21,6 +21,7 @@
 		29DA0BD944EA4860B0862252 /* Rubik-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E5C0004D92054228A969EEE7 /* Rubik-Medium.ttf */; };
 		2BCE698DC68449AF973FC0D6 /* Rubik-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FB55611CB45F4386881067D5 /* Rubik-Bold.ttf */; };
 		319D2CEB42DF44F990075272 /* Rubik-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0112F92568CF4F648E999AAA /* Rubik-MediumItalic.ttf */; };
+		3248D66238F138195A1910BB /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = AD8B41FA129F8861A824025D /* PrivacyInfo.xcprivacy */; };
 		45EA4791B187410B93F3960C /* Rubik-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8656DC3402654914A0B4B51E /* Rubik-Black.ttf */; };
 		49363C8316E1451184DD59DD /* discount_tag.svg in Resources */ = {isa = PBXBuildFile; fileRef = 28BC4692A012432C8AD9D486 /* discount_tag.svg */; };
 		49FF952CBB1944BE988076B3 /* nike-metcon-free.png in Resources */ = {isa = PBXBuildFile; fileRef = AA2E55439A8A4BAA9D572C94 /* nike-metcon-free.png */; };
@@ -119,6 +120,7 @@
 		A87D7945D3CC4BD9A0EC5E1A /* CarmenSans-Thin.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "CarmenSans-Thin.otf"; path = "../assets/fonts/CarmenSans-Thin.otf"; sourceTree = "<group>"; };
 		AA2E55439A8A4BAA9D572C94 /* nike-metcon-free.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "nike-metcon-free.png"; path = "../assets/images/nike-metcon-free.png"; sourceTree = "<group>"; };
 		AA4FC130CCFF4F988192CDDC /* nike-metcon-5-black.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "nike-metcon-5-black.png"; path = "../assets/images/nike-metcon-5-black.png"; sourceTree = "<group>"; };
+		AD8B41FA129F8861A824025D /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; includeInIndex = 1; name = PrivacyInfo.xcprivacy; path = EcommerceUXCamDemo/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
 		BC552220851C4399A081CBC2 /* brand_icon.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = brand_icon.png; path = ../assets/icons/brand_icon.png; sourceTree = "<group>"; };
 		BDD8F481BD3D4CF78AD5350D /* Rubik-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Rubik-ExtraBoldItalic.ttf"; path = "../assets/fonts/Rubik-ExtraBoldItalic.ttf"; sourceTree = "<group>"; };
 		C1DEF9982D6243A0A1CE2090 /* arrow_right.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = arrow_right.png; path = ../assets/icons/arrow_right.png; sourceTree = "<group>"; };
@@ -182,6 +184,7 @@
 				13B07FB61A68108700A75B9A /* Info.plist */,
 				81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */,
 				13B07FB71A68108700A75B9A /* main.m */,
+				AD8B41FA129F8861A824025D /* PrivacyInfo.xcprivacy */,
 			);
 			name = EcommerceUXCamDemo;
 			sourceTree = "<group>";
@@ -433,6 +436,7 @@
 				6CD8A1CF31124716AA85C15F /* nike-zoom-kobe-1-protro.png in Resources */,
 				1093A94DAE384D5F88CCF26B /* recently-viewed-label.png in Resources */,
 				B96C33A59DA94E8D92459D0F /* splashscreen.jpg in Resources */,
+				3248D66238F138195A1910BB /* PrivacyInfo.xcprivacy in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -724,8 +728,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CC = "";
 				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
-				CLANG_CXX_LANGUAGE_STANDARD = "c++17";
+				CLANG_CXX_LANGUAGE_STANDARD = "c++20";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
@@ -751,6 +756,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
+				CXX = "";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = i386;
@@ -770,6 +776,8 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				LD = "";
+				LDPLUSPLUS = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					/usr/lib/swift,
 					"$(inherited)",
@@ -787,8 +795,13 @@
 					"-DFOLLY_MOBILE=1",
 					"-DFOLLY_USE_LIBCPP=1",
 				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					" ",
+				);
 				REACT_NATIVE_PATH = "${PODS_ROOT}/../../node_modules/react-native";
 				SDKROOT = iphoneos;
+				USE_HERMES = true;
 			};
 			name = Debug;
 		};
@@ -796,8 +809,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CC = "";
 				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
-				CLANG_CXX_LANGUAGE_STANDARD = "c++17";
+				CLANG_CXX_LANGUAGE_STANDARD = "c++20";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
@@ -823,6 +837,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
+				CXX = "";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = i386;
@@ -835,6 +850,8 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				LD = "";
+				LDPLUSPLUS = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					/usr/lib/swift,
 					"$(inherited)",
@@ -851,8 +868,13 @@
 					"-DFOLLY_MOBILE=1",
 					"-DFOLLY_USE_LIBCPP=1",
 				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					" ",
+				);
 				REACT_NATIVE_PATH = "${PODS_ROOT}/../../node_modules/react-native";
 				SDKROOT = iphoneos;
+				USE_HERMES = true;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;

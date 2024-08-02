@@ -20,7 +20,7 @@ const App = () => {
 
   useEffect(() => {
     const config = {
-      userAppKey: '2c03jxhvos3e8c9',
+      userAppKey: 'et268wovwwhqy9y',
       enableAutomaticScreenNameTagging: false,
       enableImprovedScreenCapture: true,
     };
@@ -28,6 +28,7 @@ const App = () => {
     if (isStarted) {
       RNUxcam.optIntoSchematicRecordings();
       RNUxcam.startWithConfiguration(config);
+      RNUxcam.addVerificationListener((result) => console.log("UXCam started with result:" + JSON.stringify(result)));
       console.log('====================================');
       console.log('UXCAM STARTING');
       console.log('====================================');
