@@ -19,11 +19,11 @@ import RNUxcam from 'react-native-ux-cam';
 import {useOnDisappear} from '../../hooks/onDisappearHelper';
 import {useFocusEffect} from '@react-navigation/native';
 
-const config = {
-  userAppKey: '2c03jxhvos3e8c9',
-  enableAutomaticScreenNameTagging: false,
-  enableImprovedScreenCapture: true,
-};
+// const config = {
+//   userAppKey: '2c03jxhvos3e8c9',
+//   enableAutomaticScreenNameTagging: false,
+//   enableImprovedScreenCapture: true,
+// };
 
 const Address = ({navigation}) => {
   // TODO this is a different UXCam starting case
@@ -40,8 +40,8 @@ const Address = ({navigation}) => {
   // );
   useEffect(() => {
     RNUxcam.tagScreenName('Address');
-    console.info('testing app Logs JS');
-    RNUxcam.applyOcclusion(true);
+    // console.info('testing app Logs JS');
+    // RNUxcam.applyOcclusion(true);
   });
 
   const [formState, setFormState] = useState([]);

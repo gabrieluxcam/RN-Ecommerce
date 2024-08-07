@@ -9,7 +9,8 @@ import React, {useEffect, useState} from 'react';
 import {LogBox} from 'react-native';
 import AppNavigator from './navigations/AppNavigator';
 import {ClothesProvider} from './src/context';
-import RNUxcam from 'react-native-ux-cam';
+import RNUxcam, {OcclusionType, Configuration} from 'react-native-ux-cam';
+// import {Occlusion} from 'react-native-ux-cam';
 // import {log} from 'react-native-reanimated';
 
 const App = () => {
@@ -19,10 +20,17 @@ const App = () => {
   const [isStarted, setStarted] = useState<undefined | boolean>(undefined);
 
   useEffect(() => {
-    const config = {
+    const blur = {
+      type: OcclusionType.Blur, // compulsory to determine blur type
+      blurRadius: 5, // optional default 10
+      hideGestures: true, // optional, default true
+      screens: ['LoginScreen'], // optional, default all screens
+    };
+    const config: Configuration = {
       userAppKey: '2c03jxhvos3e8c9',
       enableAutomaticScreenNameTagging: false,
-      enableImprovedScreenCapture: true,
+      // enableImprovedScreenCapture: true,
+      occlusions: [blur],
     };
 
     if (isStarted) {
@@ -43,8 +51,8 @@ const App = () => {
     console.log(isStarted);
     console.log('====================================');
     console.log('check for RECORDING');
-    // console.log(RNUxcam.isRecording()); // ahora mismo deberia ser FALSE
-    // console.log(!RNUxcam.isRecording()); // aqui veo si arroja FALSE o TRUE
+    console.log(RNUxcam.isRecording());
+    console.log(!RNUxcam.isRecording());
     console.log('====================================');
   };
 
