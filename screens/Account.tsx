@@ -3,6 +3,8 @@ import {View, Button, StyleSheet} from 'react-native';
 import {useNavigation} from '@react-navigation/native';
 import {StackNavigationProp} from '@react-navigation/stack';
 import {RootStackParamList} from '../src/types/NavigationTypes'; // Adjust the import path as needed
+import RNUxcam from 'react-native-ux-cam';
+import {useFocusEffect} from '@react-navigation/native';
 
 type AccountScreenNavigationProp = StackNavigationProp<
   RootStackParamList,
@@ -10,6 +12,10 @@ type AccountScreenNavigationProp = StackNavigationProp<
 >;
 
 export default function Account() {
+  useFocusEffect(() => {
+    RNUxcam.tagScreenName('Testing Screen');
+    RNUxcam.allowShortBreakForAnotherApp(false);
+  });
   const navigation = useNavigation<AccountScreenNavigationProp>();
   function handlePress(buttonName: string) {
     console.log('====================================');
@@ -18,6 +24,9 @@ export default function Account() {
     if (buttonName === 'Test1') {
       navigation.navigate('WebViewScreen');
     }
+    // if (buttonName === 'Allow Short BReak') {
+    //   RNUxcam.allowShortBreakForAnotherApp(true);
+    // }
   }
 
   return (
@@ -31,8 +40,8 @@ export default function Account() {
       </View>
       <View style={styles.buttonContainer}>
         <Button
-          title="Test2"
-          onPress={() => handlePress('Test2')}
+          title="Allow Short BReak"
+          onPress={() => RNUxcam.allowShortBreakForAnotherApp(true)}
           color="#00008B"
         />
       </View>

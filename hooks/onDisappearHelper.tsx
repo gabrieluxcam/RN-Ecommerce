@@ -13,9 +13,9 @@ export const useOnDisappear = () => {
       console.log('Screen exited');
       RNUxcam.logEvent('Screen exited');
 
-      if (RNUxcam.isRecording()) {
-        RNUxcam.stopSessionAndUploadData();
-      }
+      // if (RNUxcam.isRecording()) {
+      //   RNUxcam.stopSessionAndUploadData();
+      // }
     });
 
     return () => unsubscribeBlur(); // Remove listener on cleanup

@@ -4,7 +4,13 @@ import {StyleSheet, View, Text, Image, TouchableOpacity} from 'react-native';
 import {COLORS, SIZES, FONTS, icons} from '../constants';
 import {ScrollView} from 'react-native-gesture-handler';
 
+import RNUxcam from 'react-native-ux-cam';
+import {useFocusEffect} from '@react-navigation/native';
+
 const Cart = ({route, navigate}) => {
+  useFocusEffect(() => {
+    RNUxcam.tagScreenName('Cart');
+  });
   var {id, name, img, type, price} = route.params;
   //const name = "GAP Light Blue Above Knee Shift Dress", img = "https://img.tatacliq.com/images/i7/437Wx649H/MP000000009096563_437Wx649H_202103170224521.jpeg",
   //price = 1588

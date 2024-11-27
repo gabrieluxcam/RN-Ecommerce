@@ -3,12 +3,14 @@ import React, {Component} from 'react';
 import {ImageBackground, StyleSheet, Text, View} from 'react-native';
 import {FONTS} from '../../constants/theme';
 import {icons} from '../../constants/';
+import RNUxcam from 'react-native-ux-cam';
 
 class Splashscreen extends React.Component {
   constructor(props) {
     super(props);
   }
   componentDidMount() {
+    RNUxcam.tagScreenName('Splash Screen');
     setTimeout(() => {
       this.props.navigation.navigate('Home');
     }, 7000);
@@ -23,7 +25,7 @@ class Splashscreen extends React.Component {
           imageStyle={{
             resizeMode: 'stretch', // works only here!
           }}>
-          <Text style={styles.text}>UXCam Demo</Text>
+          <Text style={styles.text}>Testing App</Text>
         </ImageBackground>
       </View>
     );

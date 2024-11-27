@@ -9,7 +9,8 @@ import React, {useEffect, useState} from 'react';
 import {LogBox} from 'react-native';
 import AppNavigator from './navigations/AppNavigator';
 import {ClothesProvider} from './src/context';
-import RNUxcam, {OcclusionType, Configuration} from 'react-native-ux-cam';
+import RNUxcam, {Configuration} from 'react-native-ux-cam';
+import {OcclusionType} from 'react-native-ux-cam/src/types';
 // import {Occlusion} from 'react-native-ux-cam';
 // import {log} from 'react-native-reanimated';
 
@@ -26,8 +27,10 @@ const App = () => {
       hideGestures: true, // optional, default true
       screens: ['LoginScreen'], // optional, default all screens
     };
+
     const config: Configuration = {
-      userAppKey: '2c03jxhvos3e8c9',
+      userAppKey: '2c03jxhvos3e8c9', // React Native Testing App
+      // userAppKey: '79cuorjy68vbi4j',
       enableAutomaticScreenNameTagging: false,
       // enableImprovedScreenCapture: true,
       occlusions: [blur],
