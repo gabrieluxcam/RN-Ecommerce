@@ -73,69 +73,69 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		00615042D49742939A1CA615 /* CarmenSans-SemiBold.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "CarmenSans-SemiBold.otf"; path = "../assets/fonts/CarmenSans-SemiBold.otf"; sourceTree = "<group>"; };
+		00615042D49742939A1CA615 /* CarmenSans-SemiBold.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "CarmenSans-SemiBold.otf"; path = "../assets/fonts/CarmenSans-SemiBold.otf"; sourceTree = "<group>"; };
 		00E356EE1AD99517003FC87E /* EcommerceUXCamDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EcommerceUXCamDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00E356F21AD99517003FC87E /* EcommerceUXCamDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EcommerceUXCamDemoTests.m; sourceTree = "<group>"; };
-		0112F92568CF4F648E999AAA /* Rubik-MediumItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Rubik-MediumItalic.ttf"; path = "../assets/fonts/Rubik-MediumItalic.ttf"; sourceTree = "<group>"; };
-		03E84390587C487E9EFF162A /* Rubik-Italic-VariableFont_wght.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Rubik-Italic-VariableFont_wght.ttf"; path = "../assets/fonts/Rubik-Italic-VariableFont_wght.ttf"; sourceTree = "<group>"; };
-		05CE3B14FAB54187AD0F08C6 /* discount_tag_p.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = discount_tag_p.png; path = ../assets/icons/discount_tag_p.png; sourceTree = "<group>"; };
-		0D0B03519BDA49DA97AFE3A5 /* cat_icon.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = cat_icon.png; path = ../assets/icons/cat_icon.png; sourceTree = "<group>"; };
-		12D870A34F8C4101AEFA5A36 /* recently-viewed-label.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "recently-viewed-label.png"; path = "../assets/images/recently-viewed-label.png"; sourceTree = "<group>"; };
+		0112F92568CF4F648E999AAA /* Rubik-MediumItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Rubik-MediumItalic.ttf"; path = "../assets/fonts/Rubik-MediumItalic.ttf"; sourceTree = "<group>"; };
+		03E84390587C487E9EFF162A /* Rubik-Italic-VariableFont_wght.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Rubik-Italic-VariableFont_wght.ttf"; path = "../assets/fonts/Rubik-Italic-VariableFont_wght.ttf"; sourceTree = "<group>"; };
+		05CE3B14FAB54187AD0F08C6 /* discount_tag_p.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = discount_tag_p.png; path = ../assets/icons/discount_tag_p.png; sourceTree = "<group>"; };
+		0D0B03519BDA49DA97AFE3A5 /* cat_icon.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = cat_icon.png; path = ../assets/icons/cat_icon.png; sourceTree = "<group>"; };
+		12D870A34F8C4101AEFA5A36 /* recently-viewed-label.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "recently-viewed-label.png"; path = "../assets/images/recently-viewed-label.png"; sourceTree = "<group>"; };
 		13B07F961A680F5B00A75B9A /* EcommerceUXCamDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EcommerceUXCamDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = EcommerceUXCamDemo/AppDelegate.h; sourceTree = "<group>"; };
 		13B07FB01A68108700A75B9A /* AppDelegate.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = AppDelegate.mm; path = EcommerceUXCamDemo/AppDelegate.mm; sourceTree = "<group>"; };
 		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = EcommerceUXCamDemo/Images.xcassets; sourceTree = "<group>"; };
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = EcommerceUXCamDemo/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = EcommerceUXCamDemo/main.m; sourceTree = "<group>"; };
-		19F3F597E0C1461C902E31E4 /* save_icon.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = save_icon.png; path = ../assets/icons/save_icon.png; sourceTree = "<group>"; };
+		19F3F597E0C1461C902E31E4 /* save_icon.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = save_icon.png; path = ../assets/icons/save_icon.png; sourceTree = "<group>"; };
 		19F6CBCC0A4E27FBF8BF4A61 /* libPods-EcommerceUXCamDemo-EcommerceUXCamDemoTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-EcommerceUXCamDemo-EcommerceUXCamDemoTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		1BA87E4B1A024666A203D870 /* splashscreen.jpg */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = splashscreen.jpg; path = ../assets/images/splashscreen.jpg; sourceTree = "<group>"; };
-		1C155518373C49EABAC489B2 /* home_icon.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = home_icon.png; path = ../assets/icons/home_icon.png; sourceTree = "<group>"; };
-		28BC4692A012432C8AD9D486 /* discount_tag.svg */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = discount_tag.svg; path = ../assets/icons/discount_tag.svg; sourceTree = "<group>"; };
-		2A93720D042447B58509C869 /* nike-pegasus-36.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "nike-pegasus-36.png"; path = "../assets/images/nike-pegasus-36.png"; sourceTree = "<group>"; };
-		39915B2AEB4A44088906B146 /* ic_launcher.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = ic_launcher.png; path = ../assets/icons/ic_launcher.png; sourceTree = "<group>"; };
+		1BA87E4B1A024666A203D870 /* splashscreen.jpg */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = splashscreen.jpg; path = ../assets/images/splashscreen.jpg; sourceTree = "<group>"; };
+		1C155518373C49EABAC489B2 /* home_icon.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = home_icon.png; path = ../assets/icons/home_icon.png; sourceTree = "<group>"; };
+		28BC4692A012432C8AD9D486 /* discount_tag.svg */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = discount_tag.svg; path = ../assets/icons/discount_tag.svg; sourceTree = "<group>"; };
+		2A93720D042447B58509C869 /* nike-pegasus-36.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "nike-pegasus-36.png"; path = "../assets/images/nike-pegasus-36.png"; sourceTree = "<group>"; };
+		39915B2AEB4A44088906B146 /* ic_launcher.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = ic_launcher.png; path = ../assets/icons/ic_launcher.png; sourceTree = "<group>"; };
 		3B4392A12AC88292D35C810B /* Pods-EcommerceUXCamDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EcommerceUXCamDemo.debug.xcconfig"; path = "Target Support Files/Pods-EcommerceUXCamDemo/Pods-EcommerceUXCamDemo.debug.xcconfig"; sourceTree = "<group>"; };
-		4479927E00D445AEA3D7DDDA /* account_icon.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = account_icon.png; path = ../assets/icons/account_icon.png; sourceTree = "<group>"; };
-		491293F390254BCCBDA96694 /* Rubik-BlackItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Rubik-BlackItalic.ttf"; path = "../assets/fonts/Rubik-BlackItalic.ttf"; sourceTree = "<group>"; };
-		4D5EEF6E3AB9444CB8C15828 /* menu.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = menu.png; path = ../assets/icons/menu.png; sourceTree = "<group>"; };
-		5368D1A4C58A45D485DBB9AB /* bag_icon.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = bag_icon.png; path = ../assets/icons/bag_icon.png; sourceTree = "<group>"; };
+		4479927E00D445AEA3D7DDDA /* account_icon.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = account_icon.png; path = ../assets/icons/account_icon.png; sourceTree = "<group>"; };
+		491293F390254BCCBDA96694 /* Rubik-BlackItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Rubik-BlackItalic.ttf"; path = "../assets/fonts/Rubik-BlackItalic.ttf"; sourceTree = "<group>"; };
+		4D5EEF6E3AB9444CB8C15828 /* menu.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = menu.png; path = ../assets/icons/menu.png; sourceTree = "<group>"; };
+		5368D1A4C58A45D485DBB9AB /* bag_icon.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = bag_icon.png; path = ../assets/icons/bag_icon.png; sourceTree = "<group>"; };
 		5709B34CF0A7D63546082F79 /* Pods-EcommerceUXCamDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EcommerceUXCamDemo.release.xcconfig"; path = "Target Support Files/Pods-EcommerceUXCamDemo/Pods-EcommerceUXCamDemo.release.xcconfig"; sourceTree = "<group>"; };
 		5B7EB9410499542E8C5724F5 /* Pods-EcommerceUXCamDemo-EcommerceUXCamDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EcommerceUXCamDemo-EcommerceUXCamDemoTests.debug.xcconfig"; path = "Target Support Files/Pods-EcommerceUXCamDemo-EcommerceUXCamDemoTests/Pods-EcommerceUXCamDemo-EcommerceUXCamDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
-		5D7B1B77A7BA4B18BDF00DE5 /* nike-metcon-4.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "nike-metcon-4.png"; path = "../assets/images/nike-metcon-4.png"; sourceTree = "<group>"; };
+		5D7B1B77A7BA4B18BDF00DE5 /* nike-metcon-4.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "nike-metcon-4.png"; path = "../assets/images/nike-metcon-4.png"; sourceTree = "<group>"; };
 		5DCACB8F33CDC322A6C60F78 /* libPods-EcommerceUXCamDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-EcommerceUXCamDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		5F934409EF8A4F15A421D6DC /* search.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = search.png; path = ../assets/icons/search.png; sourceTree = "<group>"; };
-		61CC563970D748719B32F2E8 /* CocoGothic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = CocoGothic.ttf; path = ../assets/fonts/CocoGothic.ttf; sourceTree = "<group>"; };
-		64E1E29304434135B85667D6 /* CocoGothic-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "CocoGothic-Bold.ttf"; path = "../assets/fonts/CocoGothic-Bold.ttf"; sourceTree = "<group>"; };
-		790B179D44F14B71A8B434C1 /* Rubik-SemiBoldItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Rubik-SemiBoldItalic.ttf"; path = "../assets/fonts/Rubik-SemiBoldItalic.ttf"; sourceTree = "<group>"; };
-		7B320FE6C80C4BEBA054A43D /* Rubik-BoldItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Rubik-BoldItalic.ttf"; path = "../assets/fonts/Rubik-BoldItalic.ttf"; sourceTree = "<group>"; };
+		5F934409EF8A4F15A421D6DC /* search.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = search.png; path = ../assets/icons/search.png; sourceTree = "<group>"; };
+		61CC563970D748719B32F2E8 /* CocoGothic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = CocoGothic.ttf; path = ../assets/fonts/CocoGothic.ttf; sourceTree = "<group>"; };
+		64E1E29304434135B85667D6 /* CocoGothic-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "CocoGothic-Bold.ttf"; path = "../assets/fonts/CocoGothic-Bold.ttf"; sourceTree = "<group>"; };
+		790B179D44F14B71A8B434C1 /* Rubik-SemiBoldItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Rubik-SemiBoldItalic.ttf"; path = "../assets/fonts/Rubik-SemiBoldItalic.ttf"; sourceTree = "<group>"; };
+		7B320FE6C80C4BEBA054A43D /* Rubik-BoldItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Rubik-BoldItalic.ttf"; path = "../assets/fonts/Rubik-BoldItalic.ttf"; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = EcommerceUXCamDemo/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		8656DC3402654914A0B4B51E /* Rubik-Black.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Rubik-Black.ttf"; path = "../assets/fonts/Rubik-Black.ttf"; sourceTree = "<group>"; };
+		8656DC3402654914A0B4B51E /* Rubik-Black.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Rubik-Black.ttf"; path = "../assets/fonts/Rubik-Black.ttf"; sourceTree = "<group>"; };
 		89C6BE57DB24E9ADA2F236DE /* Pods-EcommerceUXCamDemo-EcommerceUXCamDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EcommerceUXCamDemo-EcommerceUXCamDemoTests.release.xcconfig"; path = "Target Support Files/Pods-EcommerceUXCamDemo-EcommerceUXCamDemoTests/Pods-EcommerceUXCamDemo-EcommerceUXCamDemoTests.release.xcconfig"; sourceTree = "<group>"; };
-		8BE6AC554BBF418DAFBA9224 /* arrow_back.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = arrow_back.png; path = ../assets/icons/arrow_back.png; sourceTree = "<group>"; };
-		9186CC9BC40540E9AAEA1546 /* Rubik-Italic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Rubik-Italic.ttf"; path = "../assets/fonts/Rubik-Italic.ttf"; sourceTree = "<group>"; };
-		9719794AD29845BEBEB4C985 /* Rubik-LightItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Rubik-LightItalic.ttf"; path = "../assets/fonts/Rubik-LightItalic.ttf"; sourceTree = "<group>"; };
-		A1691A00AF3645BC89637F68 /* Rubik-VariableFont_wght.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Rubik-VariableFont_wght.ttf"; path = "../assets/fonts/Rubik-VariableFont_wght.ttf"; sourceTree = "<group>"; };
-		A5083CCDD1B24C8FA1B5DAEF /* nike-zoom-kobe-1-protro.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "nike-zoom-kobe-1-protro.png"; path = "../assets/images/nike-zoom-kobe-1-protro.png"; sourceTree = "<group>"; };
-		A87D7945D3CC4BD9A0EC5E1A /* CarmenSans-Thin.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "CarmenSans-Thin.otf"; path = "../assets/fonts/CarmenSans-Thin.otf"; sourceTree = "<group>"; };
-		AA2E55439A8A4BAA9D572C94 /* nike-metcon-free.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "nike-metcon-free.png"; path = "../assets/images/nike-metcon-free.png"; sourceTree = "<group>"; };
-		AA4FC130CCFF4F988192CDDC /* nike-metcon-5-black.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "nike-metcon-5-black.png"; path = "../assets/images/nike-metcon-5-black.png"; sourceTree = "<group>"; };
-		AD8B41FA129F8861A824025D /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; includeInIndex = 1; name = PrivacyInfo.xcprivacy; path = EcommerceUXCamDemo/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
-		BC552220851C4399A081CBC2 /* brand_icon.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = brand_icon.png; path = ../assets/icons/brand_icon.png; sourceTree = "<group>"; };
-		BDD8F481BD3D4CF78AD5350D /* Rubik-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Rubik-ExtraBoldItalic.ttf"; path = "../assets/fonts/Rubik-ExtraBoldItalic.ttf"; sourceTree = "<group>"; };
-		C1DEF9982D6243A0A1CE2090 /* arrow_right.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = arrow_right.png; path = ../assets/icons/arrow_right.png; sourceTree = "<group>"; };
-		C6ECDD0A3EA94FB9929F744D /* Rubik-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Rubik-Regular.ttf"; path = "../assets/fonts/Rubik-Regular.ttf"; sourceTree = "<group>"; };
-		C7F311A9A36C42F6868A355B /* Rubik-Light.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Rubik-Light.ttf"; path = "../assets/fonts/Rubik-Light.ttf"; sourceTree = "<group>"; };
-		CAD05369BD154812BB4A055E /* Rubik-SemiBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Rubik-SemiBold.ttf"; path = "../assets/fonts/Rubik-SemiBold.ttf"; sourceTree = "<group>"; };
-		D47EFA53D71442C5BBB5DB37 /* nike-metcon-3.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "nike-metcon-3.png"; path = "../assets/images/nike-metcon-3.png"; sourceTree = "<group>"; };
-		D9AA30734A334FC8A924613A /* Rubik-ExtraBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Rubik-ExtraBold.ttf"; path = "../assets/fonts/Rubik-ExtraBold.ttf"; sourceTree = "<group>"; };
-		DD238150ED9D43F5827F9B30 /* CarmenSans-Regular.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "CarmenSans-Regular.otf"; path = "../assets/fonts/CarmenSans-Regular.otf"; sourceTree = "<group>"; };
-		E5C0004D92054228A969EEE7 /* Rubik-Medium.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Rubik-Medium.ttf"; path = "../assets/fonts/Rubik-Medium.ttf"; sourceTree = "<group>"; };
+		8BE6AC554BBF418DAFBA9224 /* arrow_back.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = arrow_back.png; path = ../assets/icons/arrow_back.png; sourceTree = "<group>"; };
+		9186CC9BC40540E9AAEA1546 /* Rubik-Italic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Rubik-Italic.ttf"; path = "../assets/fonts/Rubik-Italic.ttf"; sourceTree = "<group>"; };
+		9719794AD29845BEBEB4C985 /* Rubik-LightItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Rubik-LightItalic.ttf"; path = "../assets/fonts/Rubik-LightItalic.ttf"; sourceTree = "<group>"; };
+		A1691A00AF3645BC89637F68 /* Rubik-VariableFont_wght.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Rubik-VariableFont_wght.ttf"; path = "../assets/fonts/Rubik-VariableFont_wght.ttf"; sourceTree = "<group>"; };
+		A5083CCDD1B24C8FA1B5DAEF /* nike-zoom-kobe-1-protro.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "nike-zoom-kobe-1-protro.png"; path = "../assets/images/nike-zoom-kobe-1-protro.png"; sourceTree = "<group>"; };
+		A87D7945D3CC4BD9A0EC5E1A /* CarmenSans-Thin.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "CarmenSans-Thin.otf"; path = "../assets/fonts/CarmenSans-Thin.otf"; sourceTree = "<group>"; };
+		AA2E55439A8A4BAA9D572C94 /* nike-metcon-free.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "nike-metcon-free.png"; path = "../assets/images/nike-metcon-free.png"; sourceTree = "<group>"; };
+		AA4FC130CCFF4F988192CDDC /* nike-metcon-5-black.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "nike-metcon-5-black.png"; path = "../assets/images/nike-metcon-5-black.png"; sourceTree = "<group>"; };
+		AD8B41FA129F8861A824025D /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xml; name = PrivacyInfo.xcprivacy; path = EcommerceUXCamDemo/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		BC552220851C4399A081CBC2 /* brand_icon.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = brand_icon.png; path = ../assets/icons/brand_icon.png; sourceTree = "<group>"; };
+		BDD8F481BD3D4CF78AD5350D /* Rubik-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Rubik-ExtraBoldItalic.ttf"; path = "../assets/fonts/Rubik-ExtraBoldItalic.ttf"; sourceTree = "<group>"; };
+		C1DEF9982D6243A0A1CE2090 /* arrow_right.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = arrow_right.png; path = ../assets/icons/arrow_right.png; sourceTree = "<group>"; };
+		C6ECDD0A3EA94FB9929F744D /* Rubik-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Rubik-Regular.ttf"; path = "../assets/fonts/Rubik-Regular.ttf"; sourceTree = "<group>"; };
+		C7F311A9A36C42F6868A355B /* Rubik-Light.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Rubik-Light.ttf"; path = "../assets/fonts/Rubik-Light.ttf"; sourceTree = "<group>"; };
+		CAD05369BD154812BB4A055E /* Rubik-SemiBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Rubik-SemiBold.ttf"; path = "../assets/fonts/Rubik-SemiBold.ttf"; sourceTree = "<group>"; };
+		D47EFA53D71442C5BBB5DB37 /* nike-metcon-3.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "nike-metcon-3.png"; path = "../assets/images/nike-metcon-3.png"; sourceTree = "<group>"; };
+		D9AA30734A334FC8A924613A /* Rubik-ExtraBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Rubik-ExtraBold.ttf"; path = "../assets/fonts/Rubik-ExtraBold.ttf"; sourceTree = "<group>"; };
+		DD238150ED9D43F5827F9B30 /* CarmenSans-Regular.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "CarmenSans-Regular.otf"; path = "../assets/fonts/CarmenSans-Regular.otf"; sourceTree = "<group>"; };
+		E5C0004D92054228A969EEE7 /* Rubik-Medium.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Rubik-Medium.ttf"; path = "../assets/fonts/Rubik-Medium.ttf"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
-		F961AA27DFF04A73AF6C7643 /* nike-metcon-6.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "nike-metcon-6.png"; path = "../assets/images/nike-metcon-6.png"; sourceTree = "<group>"; };
-		FB1DEAEF2A394020A03CC830 /* nike-metcon-5-purple.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "nike-metcon-5-purple.png"; path = "../assets/images/nike-metcon-5-purple.png"; sourceTree = "<group>"; };
-		FB55611CB45F4386881067D5 /* Rubik-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Rubik-Bold.ttf"; path = "../assets/fonts/Rubik-Bold.ttf"; sourceTree = "<group>"; };
-		FF458104A09E4146979F5FBA /* arrow_rt_new.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = arrow_rt_new.png; path = ../assets/icons/arrow_rt_new.png; sourceTree = "<group>"; };
+		F961AA27DFF04A73AF6C7643 /* nike-metcon-6.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "nike-metcon-6.png"; path = "../assets/images/nike-metcon-6.png"; sourceTree = "<group>"; };
+		FB1DEAEF2A394020A03CC830 /* nike-metcon-5-purple.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "nike-metcon-5-purple.png"; path = "../assets/images/nike-metcon-5-purple.png"; sourceTree = "<group>"; };
+		FB55611CB45F4386881067D5 /* Rubik-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Rubik-Bold.ttf"; path = "../assets/fonts/Rubik-Bold.ttf"; sourceTree = "<group>"; };
+		FF458104A09E4146979F5FBA /* arrow_rt_new.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = arrow_rt_new.png; path = ../assets/icons/arrow_rt_new.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -281,7 +281,6 @@
 				1BA87E4B1A024666A203D870 /* splashscreen.jpg */,
 			);
 			name = Resources;
-			path = "";
 			sourceTree = "<group>";
 		};
 		BBD78D7AC51CEA395F1C20DB /* Pods */ = {
@@ -679,6 +678,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = F3Y5Y5X7H8;
 				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = EcommerceUXCamDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -706,6 +706,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = F3Y5Y5X7H8;
 				INFOPLIST_FILE = EcommerceUXCamDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -795,10 +796,7 @@
 					"-DFOLLY_MOBILE=1",
 					"-DFOLLY_USE_LIBCPP=1",
 				);
-				OTHER_LDFLAGS = (
-					"$(inherited)",
-					" ",
-				);
+				OTHER_LDFLAGS = "$(inherited)  ";
 				REACT_NATIVE_PATH = "${PODS_ROOT}/../../node_modules/react-native";
 				SDKROOT = iphoneos;
 				USE_HERMES = true;
@@ -868,10 +866,7 @@
 					"-DFOLLY_MOBILE=1",
 					"-DFOLLY_USE_LIBCPP=1",
 				);
-				OTHER_LDFLAGS = (
-					"$(inherited)",
-					" ",
-				);
+				OTHER_LDFLAGS = "$(inherited)  ";
 				REACT_NATIVE_PATH = "${PODS_ROOT}/../../node_modules/react-native";
 				SDKROOT = iphoneos;
 				USE_HERMES = true;
