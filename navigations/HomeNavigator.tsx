@@ -22,6 +22,8 @@ import Category from '../screens/Categories';
 import Product from '../screens/Detail';
 import ProductList from '../screens/ProductList';
 import Splashscreen from '../screens/Splash/SplashScreen';
+import Brand from '../screens/Brand';
+import Account from '../screens/Account';
 
 const Stack = createStackNavigator<HomeStackParamList>();
 const Tab = createBottomTabNavigator<HomeBottmTabParamList>();
@@ -59,16 +61,11 @@ function HomeTabs() {
       />
       <Tab.Screen
         name="Brand"
-        component={Home}
-        listeners={{
-          tabPress: e => {
-            e.preventDefault();
-          },
-        }}
+        component={Brand}
         options={{
           tabBarIcon: ({color, size}) => (
             <MaterialCommunityIcons
-              name="cards-outline"
+              name="tag-multiple"
               color={color}
               size={size}
             />
@@ -77,12 +74,7 @@ function HomeTabs() {
       />
       <Tab.Screen
         name="Account"
-        component={Home}
-        listeners={{
-          tabPress: e => {
-            e.preventDefault();
-          },
-        }}
+        component={Account}
         options={{
           tabBarIcon: ({color, size}) => (
             <MaterialCommunityIcons
@@ -95,12 +87,7 @@ function HomeTabs() {
       />
       <Tab.Screen
         name="MyBag"
-        component={Category}
-        // listeners={{
-        //   tabPress: e => {
-        //     e.preventDefault();
-        //   },
-        // }}
+        component={Cart}
         options={{
           title: 'My Bag',
           tabBarIcon: ({color, size}) => (

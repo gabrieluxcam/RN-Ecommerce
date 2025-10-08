@@ -36,7 +36,6 @@
 		65DF177B742D4F76808B922E /* save_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 19F3F597E0C1461C902E31E4 /* save_icon.png */; };
 		6CD8A1CF31124716AA85C15F /* nike-zoom-kobe-1-protro.png in Resources */ = {isa = PBXBuildFile; fileRef = A5083CCDD1B24C8FA1B5DAEF /* nike-zoom-kobe-1-protro.png */; };
 		741CE2B34F8345E582CAAA3D /* Rubik-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9719794AD29845BEBEB4C985 /* Rubik-LightItalic.ttf */; };
-		7699B88040F8A987B510C191 /* libPods-EcommerceUXCamDemo-EcommerceUXCamDemoTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 19F6CBCC0A4E27FBF8BF4A61 /* libPods-EcommerceUXCamDemo-EcommerceUXCamDemoTests.a */; };
 		78CD3465CBF7419EB094C699 /* CarmenSans-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = DD238150ED9D43F5827F9B30 /* CarmenSans-Regular.otf */; };
 		7C5C91AE5131475E9233D605 /* nike-metcon-4.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D7B1B77A7BA4B18BDF00DE5 /* nike-metcon-4.png */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
@@ -47,7 +46,6 @@
 		9C137DE90EB8476887D9DCF2 /* CarmenSans-Thin.otf in Resources */ = {isa = PBXBuildFile; fileRef = A87D7945D3CC4BD9A0EC5E1A /* CarmenSans-Thin.otf */; };
 		9CC22E9EB0E94B2EA2C1F1F3 /* account_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 4479927E00D445AEA3D7DDDA /* account_icon.png */; };
 		AD649E0E972C47E8A6EA2862 /* nike-metcon-6.png in Resources */ = {isa = PBXBuildFile; fileRef = F961AA27DFF04A73AF6C7643 /* nike-metcon-6.png */; };
-		B96C33A59DA94E8D92459D0F /* splashscreen.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1BA87E4B1A024666A203D870 /* splashscreen.jpg */; };
 		C13987BA14BA4C9E9A80A4F6 /* brand_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = BC552220851C4399A081CBC2 /* brand_icon.png */; };
 		CAD8B6BD0D954E1FAD718FFF /* nike-pegasus-36.png in Resources */ = {isa = PBXBuildFile; fileRef = 2A93720D042447B58509C869 /* nike-pegasus-36.png */; };
 		CAE30978584D4E19A08BEEDA /* Rubik-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CAD05369BD154812BB4A055E /* Rubik-SemiBold.ttf */; };
@@ -60,6 +58,7 @@
 		F75F7879E3A949BDA36B11FC /* arrow_rt_new.png in Resources */ = {isa = PBXBuildFile; fileRef = FF458104A09E4146979F5FBA /* arrow_rt_new.png */; };
 		FB74C25B8B9B40A3A232BB6D /* CocoGothic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 61CC563970D748719B32F2E8 /* CocoGothic.ttf */; };
 		FEF530D6FBFD414D884B2609 /* search.png in Resources */ = {isa = PBXBuildFile; fileRef = 5F934409EF8A4F15A421D6DC /* search.png */; };
+		A59815F2E36244CCA6D25F47 /* splashscreen.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F51B4CB5B8874EFF84198E3D /* splashscreen.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -89,8 +88,6 @@
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = EcommerceUXCamDemo/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = EcommerceUXCamDemo/main.m; sourceTree = "<group>"; };
 		19F3F597E0C1461C902E31E4 /* save_icon.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = save_icon.png; path = ../assets/icons/save_icon.png; sourceTree = "<group>"; };
-		19F6CBCC0A4E27FBF8BF4A61 /* libPods-EcommerceUXCamDemo-EcommerceUXCamDemoTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-EcommerceUXCamDemo-EcommerceUXCamDemoTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		1BA87E4B1A024666A203D870 /* splashscreen.jpg */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = splashscreen.jpg; path = ../assets/images/splashscreen.jpg; sourceTree = "<group>"; };
 		1C155518373C49EABAC489B2 /* home_icon.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = home_icon.png; path = ../assets/icons/home_icon.png; sourceTree = "<group>"; };
 		28BC4692A012432C8AD9D486 /* discount_tag.svg */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = discount_tag.svg; path = ../assets/icons/discount_tag.svg; sourceTree = "<group>"; };
 		2A93720D042447B58509C869 /* nike-pegasus-36.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "nike-pegasus-36.png"; path = "../assets/images/nike-pegasus-36.png"; sourceTree = "<group>"; };
@@ -101,7 +98,6 @@
 		4D5EEF6E3AB9444CB8C15828 /* menu.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = menu.png; path = ../assets/icons/menu.png; sourceTree = "<group>"; };
 		5368D1A4C58A45D485DBB9AB /* bag_icon.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = bag_icon.png; path = ../assets/icons/bag_icon.png; sourceTree = "<group>"; };
 		5709B34CF0A7D63546082F79 /* Pods-EcommerceUXCamDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EcommerceUXCamDemo.release.xcconfig"; path = "Target Support Files/Pods-EcommerceUXCamDemo/Pods-EcommerceUXCamDemo.release.xcconfig"; sourceTree = "<group>"; };
-		5B7EB9410499542E8C5724F5 /* Pods-EcommerceUXCamDemo-EcommerceUXCamDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EcommerceUXCamDemo-EcommerceUXCamDemoTests.debug.xcconfig"; path = "Target Support Files/Pods-EcommerceUXCamDemo-EcommerceUXCamDemoTests/Pods-EcommerceUXCamDemo-EcommerceUXCamDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
 		5D7B1B77A7BA4B18BDF00DE5 /* nike-metcon-4.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "nike-metcon-4.png"; path = "../assets/images/nike-metcon-4.png"; sourceTree = "<group>"; };
 		5DCACB8F33CDC322A6C60F78 /* libPods-EcommerceUXCamDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-EcommerceUXCamDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5F934409EF8A4F15A421D6DC /* search.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = search.png; path = ../assets/icons/search.png; sourceTree = "<group>"; };
@@ -111,7 +107,6 @@
 		7B320FE6C80C4BEBA054A43D /* Rubik-BoldItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Rubik-BoldItalic.ttf"; path = "../assets/fonts/Rubik-BoldItalic.ttf"; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = EcommerceUXCamDemo/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8656DC3402654914A0B4B51E /* Rubik-Black.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Rubik-Black.ttf"; path = "../assets/fonts/Rubik-Black.ttf"; sourceTree = "<group>"; };
-		89C6BE57DB24E9ADA2F236DE /* Pods-EcommerceUXCamDemo-EcommerceUXCamDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EcommerceUXCamDemo-EcommerceUXCamDemoTests.release.xcconfig"; path = "Target Support Files/Pods-EcommerceUXCamDemo-EcommerceUXCamDemoTests/Pods-EcommerceUXCamDemo-EcommerceUXCamDemoTests.release.xcconfig"; sourceTree = "<group>"; };
 		8BE6AC554BBF418DAFBA9224 /* arrow_back.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = arrow_back.png; path = ../assets/icons/arrow_back.png; sourceTree = "<group>"; };
 		9186CC9BC40540E9AAEA1546 /* Rubik-Italic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Rubik-Italic.ttf"; path = "../assets/fonts/Rubik-Italic.ttf"; sourceTree = "<group>"; };
 		9719794AD29845BEBEB4C985 /* Rubik-LightItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Rubik-LightItalic.ttf"; path = "../assets/fonts/Rubik-LightItalic.ttf"; sourceTree = "<group>"; };
@@ -136,6 +131,7 @@
 		FB1DEAEF2A394020A03CC830 /* nike-metcon-5-purple.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "nike-metcon-5-purple.png"; path = "../assets/images/nike-metcon-5-purple.png"; sourceTree = "<group>"; };
 		FB55611CB45F4386881067D5 /* Rubik-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Rubik-Bold.ttf"; path = "../assets/fonts/Rubik-Bold.ttf"; sourceTree = "<group>"; };
 		FF458104A09E4146979F5FBA /* arrow_rt_new.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = arrow_rt_new.png; path = ../assets/icons/arrow_rt_new.png; sourceTree = "<group>"; };
+		F51B4CB5B8874EFF84198E3D /* splashscreen.jpg */ = {isa = PBXFileReference; name = "splashscreen.jpg"; path = "../assets/images/splashscreen.jpg"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -143,7 +139,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7699B88040F8A987B510C191 /* libPods-EcommerceUXCamDemo-EcommerceUXCamDemoTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -194,7 +189,6 @@
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
 				5DCACB8F33CDC322A6C60F78 /* libPods-EcommerceUXCamDemo.a */,
-				19F6CBCC0A4E27FBF8BF4A61 /* libPods-EcommerceUXCamDemo-EcommerceUXCamDemoTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -278,7 +272,7 @@
 				2A93720D042447B58509C869 /* nike-pegasus-36.png */,
 				A5083CCDD1B24C8FA1B5DAEF /* nike-zoom-kobe-1-protro.png */,
 				12D870A34F8C4101AEFA5A36 /* recently-viewed-label.png */,
-				1BA87E4B1A024666A203D870 /* splashscreen.jpg */,
+				F51B4CB5B8874EFF84198E3D /* splashscreen.jpg */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -288,8 +282,6 @@
 			children = (
 				3B4392A12AC88292D35C810B /* Pods-EcommerceUXCamDemo.debug.xcconfig */,
 				5709B34CF0A7D63546082F79 /* Pods-EcommerceUXCamDemo.release.xcconfig */,
-				5B7EB9410499542E8C5724F5 /* Pods-EcommerceUXCamDemo-EcommerceUXCamDemoTests.debug.xcconfig */,
-				89C6BE57DB24E9ADA2F236DE /* Pods-EcommerceUXCamDemo-EcommerceUXCamDemoTests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -301,12 +293,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "EcommerceUXCamDemoTests" */;
 			buildPhases = (
-				A55EABD7B0C7F3A422A6CC61 /* [CP] Check Pods Manifest.lock */,
 				00E356EA1AD99517003FC87E /* Sources */,
 				00E356EB1AD99517003FC87E /* Frameworks */,
 				00E356EC1AD99517003FC87E /* Resources */,
-				C59DA0FBD6956966B86A3779 /* [CP] Embed Pods Frameworks */,
-				F6A41C54EA430FDDC6A6ED99 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -434,8 +423,8 @@
 				CAD8B6BD0D954E1FAD718FFF /* nike-pegasus-36.png in Resources */,
 				6CD8A1CF31124716AA85C15F /* nike-zoom-kobe-1-protro.png in Resources */,
 				1093A94DAE384D5F88CCF26B /* recently-viewed-label.png in Resources */,
-				B96C33A59DA94E8D92459D0F /* splashscreen.jpg in Resources */,
 				3248D66238F138195A1910BB /* PrivacyInfo.xcprivacy in Resources */,
+				A59815F2E36244CCA6D25F47 /* splashscreen.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -475,28 +464,6 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-EcommerceUXCamDemo/Pods-EcommerceUXCamDemo-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		A55EABD7B0C7F3A422A6CC61 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-EcommerceUXCamDemo-EcommerceUXCamDemoTests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
 		C38B50BA6285516D6DCD4F65 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -519,23 +486,6 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		C59DA0FBD6956966B86A3779 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-EcommerceUXCamDemo-EcommerceUXCamDemoTests/Pods-EcommerceUXCamDemo-EcommerceUXCamDemoTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-EcommerceUXCamDemo-EcommerceUXCamDemoTests/Pods-EcommerceUXCamDemo-EcommerceUXCamDemoTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-EcommerceUXCamDemo-EcommerceUXCamDemoTests/Pods-EcommerceUXCamDemo-EcommerceUXCamDemoTests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		E235C05ADACE081382539298 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -551,23 +501,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-EcommerceUXCamDemo/Pods-EcommerceUXCamDemo-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		F6A41C54EA430FDDC6A6ED99 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-EcommerceUXCamDemo-EcommerceUXCamDemoTests/Pods-EcommerceUXCamDemo-EcommerceUXCamDemoTests-resources-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Copy Pods Resources";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-EcommerceUXCamDemo-EcommerceUXCamDemoTests/Pods-EcommerceUXCamDemo-EcommerceUXCamDemoTests-resources-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-EcommerceUXCamDemo-EcommerceUXCamDemoTests/Pods-EcommerceUXCamDemo-EcommerceUXCamDemoTests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		FD10A7F022414F080027D42C /* Start Packager */ = {
@@ -622,7 +555,6 @@
 /* Begin XCBuildConfiguration section */
 		00E356F61AD99517003FC87E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5B7EB9410499542E8C5724F5 /* Pods-EcommerceUXCamDemo-EcommerceUXCamDemoTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -649,7 +581,6 @@
 		};
 		00E356F71AD99517003FC87E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 89C6BE57DB24E9ADA2F236DE /* Pods-EcommerceUXCamDemo-EcommerceUXCamDemoTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
@@ -796,9 +727,13 @@
 					"-DFOLLY_MOBILE=1",
 					"-DFOLLY_USE_LIBCPP=1",
 				);
-				OTHER_LDFLAGS = "$(inherited)  ";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					" ",
+				);
 				REACT_NATIVE_PATH = "${PODS_ROOT}/../../node_modules/react-native";
 				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) DEBUG";
 				USE_HERMES = true;
 			};
 			name = Debug;
@@ -866,7 +801,10 @@
 					"-DFOLLY_MOBILE=1",
 					"-DFOLLY_USE_LIBCPP=1",
 				);
-				OTHER_LDFLAGS = "$(inherited)  ";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					" ",
+				);
 				REACT_NATIVE_PATH = "${PODS_ROOT}/../../node_modules/react-native";
 				SDKROOT = iphoneos;
 				USE_HERMES = true;

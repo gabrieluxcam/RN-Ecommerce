@@ -3,19 +3,19 @@ import React, {useEffect} from 'react';
 import {StyleSheet, View, Text, Image, TouchableOpacity} from 'react-native';
 import {COLORS, SIZES, FONTS} from '../constants';
 import {ScrollView} from 'react-native-gesture-handler';
-import RNUxcam from 'react-native-ux-cam';
+
 import {useFocusEffect} from '@react-navigation/native';
 
 const Product = ({route, navigation}) => {
   useFocusEffect(() => {
-    RNUxcam.tagScreenName('Product Detail');
+    // Screen focused
   });
   var {id, name, img, type, price} = route.params;
 
-  if (price.toString().includes('$')) {
-    price = Math.round(price.replace('$', ''));
-  } else if (price.toString().includes('₹')) {
+  if (price.toString().includes('₹')) {
     price = Math.round(price.replace('₹', ''));
+  } else if (price.toString().includes('$')) {
+    price = Math.round(price.replace('$', ''));
   }
 
   return (
@@ -55,7 +55,7 @@ const Product = ({route, navigation}) => {
             <Text style={{...FONTS.product_title_text}}>{name}</Text>
           </View>
           <View style={{flex: 1, alignItems: 'flex-end'}}>
-            <Text style={{...FONTS.product_title_text}}>₹{price}</Text>
+            <Text style={{...FONTS.product_title_text}}>${price}</Text>
           </View>
         </View>
         <View

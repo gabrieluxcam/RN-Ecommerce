@@ -10,8 +10,6 @@ import {
 import {useNavigation} from '@react-navigation/native';
 import {StackNavigationProp} from '@react-navigation/stack';
 import {RootStackParamList} from '../src/types/NavigationTypes'; // Adjust the import path as needed
-import RNUxcam from 'react-native-ux-cam';
-import {OcclusionType} from 'react-native-ux-cam/src/types';
 
 import {useFocusEffect} from '@react-navigation/native';
 
@@ -40,19 +38,12 @@ type AccountScreenNavigationProp = StackNavigationProp<
 export default function Account() {
   const [isPaymentSheetVisible, setPaymentSheetVisible] = useState(false);
 
-  const overlay = {
-    type: 2, // compulsory to determine overlay type
-  };
-
   useFocusEffect(() => {
-    RNUxcam.tagScreenName('Testing Screen');
-    RNUxcam.allowShortBreakForAnotherApp(false);
+    // Screen focused
   });
 
   useEffect(() => {
-    if (!isPaymentSheetVisible) {
-      RNUxcam.removeOcclusion(overlay);
-    }
+    // Payment sheet state changed
   }, [isPaymentSheetVisible]);
 
   const navigation = useNavigation<AccountScreenNavigationProp>();
@@ -67,7 +58,6 @@ export default function Account() {
   }
 
   const handlePaymentSheet = async () => {
-    RNUxcam.applyOcclusion(overlay);
     await openPaymentSheet(setPaymentSheetVisible);
   };
 
@@ -82,8 +72,8 @@ export default function Account() {
       </View>
       <View style={styles.buttonContainer}>
         <Button
-          title="Allow Short BReak"
-          onPress={() => RNUxcam.allowShortBreakForAnotherApp(true)}
+          title="Allow Short Break"
+          onPress={() => console.log('Allow short break pressed')}
           color="#00008B"
         />
       </View>

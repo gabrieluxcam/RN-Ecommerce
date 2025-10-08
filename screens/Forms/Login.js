@@ -10,7 +10,7 @@ import {
 } from 'react-native';
 import {COLORS, SIZES, FONTS} from '../../constants';
 import {ScrollView} from 'react-native-gesture-handler';
-import RNUxcam from 'react-native-ux-cam';
+
 import {useFocusEffect} from '@react-navigation/native';
 
 const Login = ({navigation}) => {
@@ -22,7 +22,7 @@ const Login = ({navigation}) => {
   };
 
   useFocusEffect(() => {
-    RNUxcam.tagScreenName('LoginScreen');
+    // Screen focused
   });
   const onHandleChange = (label, value) => {
     setFormState({

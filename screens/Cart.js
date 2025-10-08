@@ -4,20 +4,28 @@ import {StyleSheet, View, Text, Image, TouchableOpacity} from 'react-native';
 import {COLORS, SIZES, FONTS, icons} from '../constants';
 import {ScrollView} from 'react-native-gesture-handler';
 
-import RNUxcam from 'react-native-ux-cam';
 import {useFocusEffect} from '@react-navigation/native';
 
 const Cart = ({route, navigate}) => {
   useFocusEffect(() => {
-    RNUxcam.tagScreenName('Cart');
+    // Screen focused
   });
-  var {id, name, img, type, price} = route.params;
-  //const name = "GAP Light Blue Above Knee Shift Dress", img = "https://img.tatacliq.com/images/i7/437Wx649H/MP000000009096563_437Wx649H_202103170224521.jpeg",
-  //price = 1588
-  if (price.toString().includes('$'))
-    price = Math.round(price.replace('$', ''));
-  else if (price.toString().includes('₹'))
+
+  // Handle case when cart is accessed from tab (no route params)
+  const defaultItem = {
+    id: 1,
+    name: 'Sample Product',
+    img: 'https://img.tatacliq.com/images/i7/437Wx649H/MP000000009096563_437Wx649H_202103170224521.jpeg',
+    type: 'Clothing',
+    price: 50
+  };
+
+  var {id, name, img, type, price} = route?.params || defaultItem;
+
+  if (price.toString().includes('₹'))
     price = Math.round(price.replace('₹', ''));
+  else if (price.toString().includes('$'))
+    price = Math.round(price.replace('$', ''));
 
   const discount_value = Math.round(price / 40);
   const discounted_price = Math.round(price - discount_value);
@@ -45,7 +53,7 @@ const Cart = ({route, navigate}) => {
                 {name}
               </Text>
               <Text style={{...FONTS.product_title_text, paddingBottom: 10}}>
-                ₹{price}
+                ${price}
               </Text>
               <Text
                 style={{
@@ -130,7 +138,7 @@ const Cart = ({route, navigate}) => {
               <Text style={{...FONTS.cart_text}}>Bag Total</Text>
             </View>
             <View style={{flex: 1}}>
-              <Text style={{...FONTS.product_title_text}}>₹{price}</Text>
+              <Text style={{...FONTS.product_title_text}}>${price}</Text>
             </View>
           </View>
           <View
@@ -145,7 +153,7 @@ const Cart = ({route, navigate}) => {
               <Text style={{...FONTS.cart_text}}>Shipping Charge</Text>
             </View>
             <View style={{flex: 1}}>
-              <Text style={{...FONTS.product_title_text}}>₹{price}</Text>
+              <Text style={{...FONTS.product_title_text}}>${price}</Text>
             </View>
           </View>
 
@@ -164,7 +172,7 @@ const Cart = ({route, navigate}) => {
             </View>
             <View style={{flex: 1}}>
               <Text style={{...FONTS.product_title_text, color: '#00964D'}}>
-                - ₹{discount_value}
+                - ${discount_value}
               </Text>
             </View>
           </View>
@@ -182,7 +190,7 @@ const Cart = ({route, navigate}) => {
             </View>
             <View style={{flex: 1}}>
               <Text style={{...FONTS.product_title_text}}>
-                ₹{discounted_price}
+                ${discounted_price}
               </Text>
             </View>
           </View>

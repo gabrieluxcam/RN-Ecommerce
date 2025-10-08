@@ -1,0 +1,12 @@
+export {default as AnimationsDemo} from './AnimationsDemo';
+export {default as GesturesDemo} from './GesturesDemo';
+export {default as FormsDemo} from './FormsDemo';
+export {default as ListsDemo} from './ListsDemo';
+export {default as ChartsDemo} from './ChartsDemo';
+export {default as NetworkingDemo} from './NetworkingDemo';
+export {default as StorageDemo} from './StorageDemo';
+export {default as MapsDemo} from './MapsDemo';
+export {default as CameraDemo} from './CameraDemo';
+export {default as NativeModulesDemo} from './NativeModulesDemo';
+export {default as TestPage1} from './TestPage1';
+export {default as TestPage2} from './TestPage2';

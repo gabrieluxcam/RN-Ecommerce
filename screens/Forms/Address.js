@@ -12,9 +12,6 @@ import {
 import {COLORS, SIZES, FONTS} from '../../constants';
 import {ScrollView} from 'react-native-gesture-handler';
 
-// UXCam import
-import RNUxcam from 'react-native-ux-cam';
-
 //testImport
 import {useOnDisappear} from '../../hooks/onDisappearHelper';
 import {useFocusEffect} from '@react-navigation/native';
@@ -26,22 +23,8 @@ import {useFocusEffect} from '@react-navigation/native';
 // };
 
 const Address = ({navigation}) => {
-  // TODO this is a different UXCam starting case
-  // useFocusEffect(
-  //   React.useCallback(() => {
-  //     // RNUxcam.optIntoSchematicRecordings();
-  //     // RNUxcam.setMultiSessionRecord(false);
-  //     // RNUxcam.startWithConfiguration(config);
-
-  //     // if (!RNUxcam.isRecording()) {
-  //     //   RNUxcam.startNewSession();
-  //     // }
-  //   }, []),
-  // );
   useEffect(() => {
-    RNUxcam.tagScreenName('Address');
-    // console.info('testing app Logs JS');
-    // RNUxcam.applyOcclusion(true);
+    // Screen focused
   });
 
   const [formState, setFormState] = useState([]);

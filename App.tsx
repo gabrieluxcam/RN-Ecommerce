@@ -5,61 +5,16 @@
  * @format
  */
 import 'react-native-gesture-handler';
-import React, {useEffect, useState} from 'react';
+import React from 'react';
 import {LogBox} from 'react-native';
 import AppNavigator from './navigations/AppNavigator';
 import {ClothesProvider} from './src/context';
-import RNUxcam, {Configuration} from 'react-native-ux-cam';
-import {OcclusionType} from 'react-native-ux-cam/src/types';
-// import {Occlusion} from 'react-native-ux-cam';
+
 // import {log} from 'react-native-reanimated';
 
 const App = () => {
   LogBox.ignoreLogs(['Warning: ...']); // Ignore log notification by message
   LogBox.ignoreAllLogs(); //Ignore all log notifications
-
-  const [isStarted, setStarted] = useState<undefined | boolean>(undefined);
-
-  useEffect(() => {
-    const blur = {
-      type: OcclusionType.Blur, // compulsory to determine blur type
-      blurRadius: 5, // optional default 10
-      hideGestures: true, // optional, default true
-      screens: ['LoginScreen'], // optional, default all screens
-    };
-
-    const config: Configuration = {
-      userAppKey: '2c03jxhvos3e8c9', // React Native Testing App
-      // userAppKey: '79cuorjy68vbi4j',
-      enableAutomaticScreenNameTagging: false,
-      // enableImprovedScreenCapture: true,
-      occlusions: [blur],
-    };
-
-    if (isStarted) {
-      RNUxcam.optIntoSchematicRecordings();
-      RNUxcam.startWithConfiguration(config);
-      RNUxcam.addVerificationListener(result =>
-        console.log('UXCam started with result:' + JSON.stringify(result)),
-      );
-      console.log('====================================');
-      console.log('UXCAM STARTING');
-      console.log('====================================');
-    }
-  }, [isStarted]);
-
-  const handleTimeOut = () => {
-    setStarted(true);
-    console.log('====================================');
-    console.log(isStarted);
-    console.log('====================================');
-    console.log('check for RECORDING');
-    console.log(RNUxcam.isRecording());
-    console.log(!RNUxcam.isRecording());
-    console.log('====================================');
-  };
-
-  setTimeout(handleTimeOut, 1000);
 
   return (
     <ClothesProvider>

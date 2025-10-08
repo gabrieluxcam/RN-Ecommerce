@@ -3,14 +3,12 @@ import React, {Component} from 'react';
 import {ImageBackground, StyleSheet, Text, View} from 'react-native';
 import {FONTS} from '../../constants/theme';
 import {icons} from '../../constants/';
-import RNUxcam from 'react-native-ux-cam';
 
 class Splashscreen extends React.Component {
   constructor(props) {
     super(props);
   }
   componentDidMount() {
-    RNUxcam.tagScreenName('Splash Screen');
     setTimeout(() => {
       this.props.navigation.navigate('Home');
     }, 7000);

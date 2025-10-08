@@ -16,12 +16,11 @@ import {ScrollView} from 'react-native-gesture-handler';
 
 import {ClothesContext} from '../src/context';
 
-import RNUxcam from 'react-native-ux-cam';
 import {useFocusEffect} from '@react-navigation/native';
 
 const Home = () => {
   useFocusEffect(() => {
-    RNUxcam.tagScreenName('Home Screen');
+    // Screen focused
   });
 
   const navigation = useNavigation();
@@ -41,10 +40,10 @@ const Home = () => {
       trendingStyle = {};
     }
 
-    if (item.price.toString().includes('$')) {
-      item.price = Math.round(item.price.replace('$', ''));
-    } else if (!item.price.toString().includes('₹')) {
-      item.price = '₹' + item.price;
+    if (item.price.toString().includes('₹')) {
+      item.price = '$' + Math.round(item.price.replace('₹', ''));
+    } else if (!item.price.toString().includes('$')) {
+      item.price = '$' + item.price;
     }
 
     return (
@@ -190,10 +189,10 @@ const Home = () => {
     );
   }
   function renderRecentlyViewed(item, index) {
-    if (item.price.toString().includes('$')) {
-      item.price = Math.round(item.price.replace('$', ''));
-    } else if (!item.price.toString().includes('₹')) {
-      item.price = '₹' + item.price;
+    if (item.price.toString().includes('₹')) {
+      item.price = '$' + Math.round(item.price.replace('₹', ''));
+    } else if (!item.price.toString().includes('$')) {
+      item.price = '$' + item.price;
     }
 
     return (

@@ -13,6 +13,19 @@ import AccountNavigator from './AccountNavigator';
 //screen
 import WebViewScreen from '../screens/WebViewScreen';
 import Account from '../screens/Account';
+// Showcase screens
+import AnimationsDemo from '../screens/Showcase/AnimationsDemo';
+import GesturesDemo from '../screens/Showcase/GesturesDemo';
+import FormsDemo from '../screens/Showcase/FormsDemo';
+import ListsDemo from '../screens/Showcase/ListsDemo';
+import ChartsDemo from '../screens/Showcase/ChartsDemo';
+import NetworkingDemo from '../screens/Showcase/NetworkingDemo';
+import StorageDemo from '../screens/Showcase/StorageDemo';
+import MapsDemo from '../screens/Showcase/MapsDemo';
+import CameraDemo from '../screens/Showcase/CameraDemo';
+import NativeModulesDemo from '../screens/Showcase/NativeModulesDemo';
+import TestPage1 from '../screens/Showcase/TestPage1';
+import TestPage2 from '../screens/Showcase/TestPage2';
 
 const theme = {
   ...DefaultTheme,
@@ -78,21 +91,76 @@ export default function AppNavigator() {
           options={{drawerLabel: 'Categories'}}
           component={MenuNavigator}
         />
+
+        {/* Feature Showcase Screens */}
+        <Drawer.Screen
+          name="AnimationsDemo"
+          options={{drawerLabel: 'Animations Demo'}}
+          component={AnimationsDemo}
+        />
+        <Drawer.Screen
+          name="GesturesDemo"
+          options={{drawerLabel: 'Gestures Demo'}}
+          component={GesturesDemo}
+        />
+        <Drawer.Screen
+          name="FormsDemo"
+          options={{drawerLabel: 'Forms Demo'}}
+          component={FormsDemo}
+        />
+        <Drawer.Screen
+          name="ListsDemo"
+          options={{drawerLabel: 'Lists & Performance'}}
+          component={ListsDemo}
+        />
+        <Drawer.Screen
+          name="MapsDemo"
+          options={{drawerLabel: 'Maps & Location'}}
+          component={MapsDemo}
+        />
+        <Drawer.Screen
+          name="CameraDemo"
+          options={{drawerLabel: 'Camera & Media'}}
+          component={CameraDemo}
+        />
+        <Drawer.Screen
+          name="ChartsDemo"
+          options={{drawerLabel: 'Charts & Data Viz'}}
+          component={ChartsDemo}
+        />
+        <Drawer.Screen
+          name="NativeModulesDemo"
+          options={{drawerLabel: 'Native Modules'}}
+          component={NativeModulesDemo}
+        />
+        <Drawer.Screen
+          name="NetworkingDemo"
+          options={{drawerLabel: 'Networking & API'}}
+          component={NetworkingDemo}
+        />
+        <Drawer.Screen
+          name="StorageDemo"
+          options={{drawerLabel: 'Storage Demo'}}
+          component={StorageDemo}
+        />
+
+        {/* Test Pages */}
+        <Drawer.Screen
+          name="TestPage1"
+          options={{drawerLabel: 'Test Page 1'}}
+          component={TestPage1}
+        />
+        <Drawer.Screen
+          name="TestPage2"
+          options={{drawerLabel: 'Test Page 2'}}
+          component={TestPage2}
+        />
+
         <Drawer.Screen
           name="SecondSideMenuItem"
-          options={{drawerLabel: 'Tests'}}
+          options={{drawerLabel: 'Account Tests'}}
           component={AccountStackNavigator}
         />
-        {/* <Drawer.Screen
-          name="ThirdSideMenuItem"
-          options={{drawerLabel: 'Addresses'}}
-          component={HomeNavigator}
-        />
-        <Drawer.Screen
-          name="FourthSideMenuItem"
-          options={{drawerLabel: 'Call US'}}
-          component={HomeNavigator}
-        /> */}
       </Drawer.Navigator>
     </NavigationContainer>
   );
