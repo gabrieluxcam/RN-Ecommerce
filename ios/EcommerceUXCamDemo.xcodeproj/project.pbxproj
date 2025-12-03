@@ -45,6 +45,7 @@
 		9920E7A959054E69B8015603 /* Rubik-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7B320FE6C80C4BEBA054A43D /* Rubik-BoldItalic.ttf */; };
 		9C137DE90EB8476887D9DCF2 /* CarmenSans-Thin.otf in Resources */ = {isa = PBXBuildFile; fileRef = A87D7945D3CC4BD9A0EC5E1A /* CarmenSans-Thin.otf */; };
 		9CC22E9EB0E94B2EA2C1F1F3 /* account_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 4479927E00D445AEA3D7DDDA /* account_icon.png */; };
+		A59815F2E36244CCA6D25F47 /* splashscreen.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F51B4CB5B8874EFF84198E3D /* splashscreen.jpg */; };
 		AD649E0E972C47E8A6EA2862 /* nike-metcon-6.png in Resources */ = {isa = PBXBuildFile; fileRef = F961AA27DFF04A73AF6C7643 /* nike-metcon-6.png */; };
 		C13987BA14BA4C9E9A80A4F6 /* brand_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = BC552220851C4399A081CBC2 /* brand_icon.png */; };
 		CAD8B6BD0D954E1FAD718FFF /* nike-pegasus-36.png in Resources */ = {isa = PBXBuildFile; fileRef = 2A93720D042447B58509C869 /* nike-pegasus-36.png */; };
@@ -58,7 +59,6 @@
 		F75F7879E3A949BDA36B11FC /* arrow_rt_new.png in Resources */ = {isa = PBXBuildFile; fileRef = FF458104A09E4146979F5FBA /* arrow_rt_new.png */; };
 		FB74C25B8B9B40A3A232BB6D /* CocoGothic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 61CC563970D748719B32F2E8 /* CocoGothic.ttf */; };
 		FEF530D6FBFD414D884B2609 /* search.png in Resources */ = {isa = PBXBuildFile; fileRef = 5F934409EF8A4F15A421D6DC /* search.png */; };
-		A59815F2E36244CCA6D25F47 /* splashscreen.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F51B4CB5B8874EFF84198E3D /* splashscreen.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -127,11 +127,11 @@
 		DD238150ED9D43F5827F9B30 /* CarmenSans-Regular.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "CarmenSans-Regular.otf"; path = "../assets/fonts/CarmenSans-Regular.otf"; sourceTree = "<group>"; };
 		E5C0004D92054228A969EEE7 /* Rubik-Medium.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Rubik-Medium.ttf"; path = "../assets/fonts/Rubik-Medium.ttf"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		F51B4CB5B8874EFF84198E3D /* splashscreen.jpg */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = splashscreen.jpg; path = ../assets/images/splashscreen.jpg; sourceTree = "<group>"; };
 		F961AA27DFF04A73AF6C7643 /* nike-metcon-6.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "nike-metcon-6.png"; path = "../assets/images/nike-metcon-6.png"; sourceTree = "<group>"; };
 		FB1DEAEF2A394020A03CC830 /* nike-metcon-5-purple.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "nike-metcon-5-purple.png"; path = "../assets/images/nike-metcon-5-purple.png"; sourceTree = "<group>"; };
 		FB55611CB45F4386881067D5 /* Rubik-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Rubik-Bold.ttf"; path = "../assets/fonts/Rubik-Bold.ttf"; sourceTree = "<group>"; };
 		FF458104A09E4146979F5FBA /* arrow_rt_new.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = arrow_rt_new.png; path = ../assets/icons/arrow_rt_new.png; sourceTree = "<group>"; };
-		F51B4CB5B8874EFF84198E3D /* splashscreen.jpg */ = {isa = PBXFileReference; name = "splashscreen.jpg"; path = "../assets/images/splashscreen.jpg"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */

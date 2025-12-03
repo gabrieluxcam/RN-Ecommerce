@@ -10,6 +10,7 @@ import LoginNavigator from './LoginNavigator';
 import MenuNavigator from './MenuNavigator';
 import ProductListNavigator from './ProductListNavigator';
 import AccountNavigator from './AccountNavigator';
+import ReproLabNavigator from './ReproLabNavigator';
 //screen
 import WebViewScreen from '../screens/WebViewScreen';
 import Account from '../screens/Account';
@@ -160,6 +161,11 @@ export default function AppNavigator() {
           name="SecondSideMenuItem"
           options={{drawerLabel: 'Account Tests'}}
           component={AccountStackNavigator}
+        />
+        <Drawer.Screen
+          name="ReproLab"
+          options={{drawerLabel: 'Repro Lab'}}
+          component={ReproLabNavigator}
         />
       </Drawer.Navigator>
     </NavigationContainer>

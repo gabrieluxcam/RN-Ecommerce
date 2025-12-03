@@ -3,6 +3,15 @@ export type AddressStackParamList = {
   Home: undefined;
 };
 
+export type ReproLabStackParamList = {
+  ReproLabHome: undefined;
+  BlankCanvas: undefined;
+  NetworkSandbox: undefined;
+  NativeBridge: undefined;
+  LayoutStress: undefined;
+  PerformanceBench: undefined;
+};
+
 export type AppDrawerParamList = {
   Address: AddressStackParamList;
   Categories: MenuAndProductListStackParamList;
@@ -10,6 +19,7 @@ export type AppDrawerParamList = {
   Login: LoginStackParamList;
   ProductList: MenuAndProductListStackParamList;
   SecondSideMenuItem: SecondSideMenuItemParamList;
+  ReproLab: ReproLabStackParamList;
 };
 
 export type HomeBottmTabParamList = {
