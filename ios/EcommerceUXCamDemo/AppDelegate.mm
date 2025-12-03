@@ -1,7 +1,7 @@
 #import "AppDelegate.h"
 
+#import <React/RCTBridge.h>
 #import <React/RCTBundleURLProvider.h>
-#import <React/RCTAppDependencyProvider.h>
 
 @implementation AppDelegate
 
@@ -13,11 +13,6 @@
   self.initialProps = @{};
 
   return [super application:application didFinishLaunchingWithOptions:launchOptions];
-}
-
-- (nonnull id<RCTDependencyProvider>)dependencyProvider
-{
-  return [RCTAppDependencyProvider new];
 }
 
 - (NSURL *)sourceURLForBridge:(RCTBridge *)bridge
