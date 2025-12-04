@@ -3,6 +3,12 @@ import {NavigationContainer, DefaultTheme} from '@react-navigation/native';
 import {createDrawerNavigator} from '@react-navigation/drawer';
 import {createStackNavigator} from '@react-navigation/stack';
 import {AppDrawerParamList} from '../src/types/NavigationTypes';
+// UXCam navigation tracking
+import {
+  createNavigationStateChangeHandler,
+  getActiveRouteName,
+  tagScreen,
+} from '../config/uxcam-navigation';
 // navigators
 import AddressNavigator from './AddressNavigator';
 import HomeNavigator from './HomeNavigator';
@@ -27,6 +33,8 @@ import CameraDemo from '../screens/Showcase/CameraDemo';
 import NativeModulesDemo from '../screens/Showcase/NativeModulesDemo';
 import TestPage1 from '../screens/Showcase/TestPage1';
 import TestPage2 from '../screens/Showcase/TestPage2';
+// UXCam Test Screens
+import UXCamSessionControl from '../screens/UXCamSessionControl';
 
 const theme = {
   ...DefaultTheme,
@@ -57,8 +65,60 @@ function AccountStackNavigator() {
 }
 
 export default function AppNavigator() {
+  console.log('\n🏗️  [AppNavigator] Component rendering...');
+
+  // Create navigation state change handler for UXCam screen tracking
+  console.log('🔧 [AppNavigator] Setting up UXCam navigation state handler...');
+  const navigationStateChangeHandler = React.useRef(
+    createNavigationStateChangeHandler(),
+  ).current;
+  console.log(
+    '✅ [AppNavigator] Navigation state handler created and stored in ref',
+  );
+
+  // Tag initial screen when app is ready
+  const handleNavigationReady = () => {
+    console.log('\n🎯 [AppNavigator] ═══ NAVIGATION READY EVENT ═══');
+    console.log('⏰ [AppNavigator] Timestamp:', new Date().toISOString());
+    console.log('📍 [AppNavigator] Navigation system is fully initialized');
+    console.log('🔍 [AppNavigator] Attempting to tag initial screen...');
+
+    const navigationRef = React.createRef();
+    if (navigationRef.current) {
+      console.log('✅ [AppNavigator] Navigation ref is available');
+      const state = navigationRef.current.getRootState();
+      console.log('📊 [AppNavigator] Retrieved root navigation state');
+      const initialRouteName = getActiveRouteName(state);
+      console.log(
+        '📌 [AppNavigator] Initial route name:',
+        initialRouteName || '(none)',
+      );
+
+      if (initialRouteName) {
+        console.log('🚀 [AppNavigator] Tagging initial screen...');
+        tagScreen(initialRouteName);
+      } else {
+        console.log(
+          '⚠️  [AppNavigator] No initial route name found, skipping tag',
+        );
+      }
+    } else {
+      console.log('⚠️  [AppNavigator] Navigation ref not available yet');
+    }
+    console.log('🎯 [AppNavigator] ═══ READY EVENT COMPLETE ═══\n');
+  };
+
+  console.log(
+    '🏗️  [AppNavigator] Rendering NavigationContainer with UXCam handlers...',
+  );
+  console.log('   • onStateChange: ✓ Registered');
+  console.log('   • onReady: ✓ Registered\n');
+
   return (
-    <NavigationContainer theme={theme}>
+    <NavigationContainer
+      theme={theme}
+      onStateChange={navigationStateChangeHandler}
+      onReady={handleNavigationReady}>
       <Drawer.Navigator
         drawerContentOptions={{
           activeTintColor: '#e91e63',
@@ -166,6 +226,11 @@ export default function AppNavigator() {
           name="ReproLab"
           options={{drawerLabel: 'Repro Lab'}}
           component={ReproLabNavigator}
+        />
+        <Drawer.Screen
+          name="UXCamSessionControl"
+          options={{drawerLabel: '🎬 UXCam Session Control'}}
+          component={UXCamSessionControl}
         />
       </Drawer.Navigator>
     </NavigationContainer>
