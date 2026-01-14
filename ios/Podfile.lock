@@ -1297,7 +1297,7 @@ PODS:
     - Yoga
   - RNSVG (15.2.0):
     - React-Core
-  - RNUxcam (6.0.8):
+  - RNUxcam (6.0.9):
     - DoubleConversion
     - glog
     - hermes-engine
@@ -1317,7 +1317,7 @@ PODS:
     - React-utils
     - ReactCommon/turbomodule/bridging
     - ReactCommon/turbomodule/core
-    - UXCam (~> 3.7.1)
+    - UXCam (~> 3.7.5)
     - Yoga
   - RNVectorIcons (10.3.0):
     - DoubleConversion
@@ -1341,7 +1341,7 @@ PODS:
     - ReactCommon/turbomodule/core
     - Yoga
   - SocketRocket (0.7.0)
-  - UXCam (3.7.2)
+  - UXCam (3.7.6)
   - Yoga (0.0.0)
 
 DEPENDENCIES:
@@ -1553,10 +1553,10 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   boost: d3f49c53809116a5d38da093a8aa78bf551aed09
-  DoubleConversion: cb417026b2400c8f53ae97020b2be961b59470cb
+  DoubleConversion: 76ab83afb40bddeeee456813d9c04f67f78771b5
   FBLazyVector: 04dc972982abebd96d823752c3a426bbe6ac397f
   fmt: 4c2741a687cc09f0634a2e2c72a838b99f1ff120
-  glog: 5683914934d5b6e4240e497e0f4a3b42d1854183
+  glog: fdfdfe5479092de0c4bdbebedd9056951f092c4f
   hermes-engine: 21ea4e6a0b64854652c8c20cb815efdbb3131fdd
   RCT-Folly: 02617c592a293bd6d418e0a88ff4ee1f88329b47
   RCTDeprecation: c4e6e3f6d44f76c45a964b40fa3eb2475259c027
@@ -1614,10 +1614,10 @@ SPEC CHECKSUMS:
   RNReanimated: 35f9ac9c3ac42d0497ebd1cce5c39d7687a8493e
   RNScreens: b32a9ff15bea7fcdbe5dff6477bc503f792b1208
   RNSVG: 43b64ed39c14ce830d840903774154ca0c1f27ec
-  RNUxcam: ea5adc0af434ce454c792784ef6071eb39583d0f
+  RNUxcam: 6a16d8a41e796e2791577ee23fa4babef0d17d58
   RNVectorIcons: 2596f3ea0f2dd121af9ae13a8f6f5d973ae9baf5
   SocketRocket: abac6f5de4d4d62d24e11868d7a2f427e0ef940d
-  UXCam: 29455e8ae9a7f592850f2e40872dd307617924f2
+  UXCam: 47c2b1a152b1914b3eec06b39b0c3523d71ad8ad
   Yoga: 272dddd3c0e1e23d09ba81ed55ddfa7fdd3caa17
 
 PODFILE CHECKSUM: c3e838567f1339e181a923a3de4dbdd2c41e6b13

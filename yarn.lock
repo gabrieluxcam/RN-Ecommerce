@@ -6227,10 +6227,10 @@ react-native-svg@15.2.0:
     css-select "^5.1.0"
     css-tree "^1.1.3"
 
-react-native-ux-cam@^6.0.8:
-  version "6.0.8"
-  resolved "https://registry.npmjs.org/react-native-ux-cam/-/react-native-ux-cam-6.0.8.tgz"
-  integrity sha512-niPVTg4iMEGYNN6gpySZMFjudIZGsfJO1q+Z2qfV0Y4ah+R8Gz1RcBBSDhePam5b/ZAQvj+gEYu+WvmyGYlxpw==
+react-native-ux-cam@^6.0.9:
+  version "6.0.9"
+  resolved "https://registry.npmjs.org/react-native-ux-cam/-/react-native-ux-cam-6.0.9.tgz"
+  integrity sha512-M0ki8hcuDRP0Ljk7AKMV6hMSs3M6dI3cB9jbGNTFw9q6p74O2kOj1ZrOzUhXW4iFAJrsA9kLVs8kzcZVIVLXkw==
   dependencies:
     "@babel/runtime" "^7.20.0"
 

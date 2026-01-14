@@ -17,7 +17,8 @@ export const getUXCamConfig = () => {
 
   const config = {
     // App key provided for this project
-    userAppKey: 'hyglikxvm5sozzv',
+    // userAppKey: 'hyglikxvm5sozzv',
+    userAppKey: 'nthwtll5i43gqbt-us',
 
     // Manual screen tagging recommended for better control
     enableAutomaticScreenNameTagging: false,
@@ -26,7 +27,7 @@ export const getUXCamConfig = () => {
     enableImprovedScreenCapture: true,
 
     // Enable logs in development (only visible in Xcode/Android Studio)
-    enableIntegrationLogging: __DEV__,
+    enableIntegrationLogging: true,
   };
 
   console.log('✅ [UXCam Config] Configuration built successfully');
